@@ -25,6 +25,21 @@ El panorama vegetariano y vegano se encuentra actualmente en una disyuntiva: por
 
 ## Datos
 
+¿Qué datos necesita para aprobar su hipótesis? 
+- Los datos que necesitamos son el valor de la canasta básica tradicional, el valor de los productos veganos similares a los productos de la canasta tradicional para compararlos. 
+
+¿Qué datos tiene y que datos necesitan conseguir aún? 
+- Tenemos los precios y productos de la canasta básica tradicional, los beneficios y oportunidades que se presentan para las empresas. Además, de los riesgos en etiquetados incorrectos o con falta de información en los envases, lo que genera constante desconfianza. Faltaría los precios de los productos veganos para compararlos.
+
+¿Qué datos no existen y cómo los obtendrán? 
+- Hasta el momento no hemos tenido problema con la información que utilizaremos para los distintos ítems que abordaremos, ya que hay gran variedad de estudios e información actualizada. El mayor problema podría ser que algunos datos son del año 2024 y a inicios del 2025 por lo que no contamos con información del mes en que nos encontramos investigando, es decir, que sea lo bastante reciente.
+
+¿Qué datos son públicos y cuáles no? 
+- Todos los datos son de carácter público ya que utilizamos información y datos de páginas de ministerios, noticias, estudios y páginas de asociaciones veganas.
+
+¿Qué datos son confiables y cuáles no? 
+- Toda nuestra información y datos vienen de paginas confiables y estudios certificados para una mayor precisión. Lo que puede cambiar y considerarse desconfiable es la variación de los precios en los productos desde que nos encontramos investigando hasta el momento de la publicación final ya que los precios son dinámicos y variables.
+
 ## Preguntas a responder
 
 - ¿Cuál es la diferencia de precios entre productos tradicionales y veganos? 
