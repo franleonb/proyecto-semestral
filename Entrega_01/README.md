@@ -46,10 +46,7 @@ Siguiendo la idea de la canasta, proponemos una historia en la que caperucita ro
 
 Queremos utilizar los clásicos colores verdes y rojos como los tonos principales y para los detalles del fondo de la web utilizar vegetación, flores y naturaleza. La idea es que cada vez que la persona baje para ver la información esté siguiendo un especie de camino por el bosque. Para la interacción agregar imágenes de los productos tengan información al interactuar con ellos. Proponemos una nueva forma más amigable de acercar la información densa de la economía y la seriedad a la alimentación y sus productos, visto como un trámite aburrido, un tema importante para la vida en general y sobre todo para nosotros como adultos jóvenes. 
 
-![alt text](/assets/little-caperucita-roja.png)
-![alt text](/assets/caperucita-2.png)
-![alt text](/assets/los-osos-seran-ninos.png)
-![alt text](/assets/osos-datos.png)
+![alt text](/caperucita-2.png)
 
 
 
