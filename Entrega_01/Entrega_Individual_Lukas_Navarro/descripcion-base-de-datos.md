@@ -3,4 +3,4 @@ Crearemos una planilla de Excel con la recopilación de los productos de una can
 
 ![alt text](/planilla.png) 
 
-Referencias: [18 Vegan](https://www.emporiovivevegano.cl/18vegan), [Unimarc](https://www.unimarc.cl/?srsltid=AfmBOoqRV6jUYTva7lBBDOeVfAq7mseEGQyyJp59gSLv4YBYYBDYtDVG) y 
+Referencias: [18 Vegan](https://www.emporiovivevegano.cl/18vegan), [Unimarc](https://www.unimarc.cl/?srsltid=AfmBOoqRV6jUYTva7lBBDOeVfAq7mseEGQyyJp59gSLv4YBYYBDYtDVG) y [Super 10](https://www.super10.cl/).
