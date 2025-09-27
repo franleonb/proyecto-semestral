@@ -1,104 +1,64 @@
-# Informe: ¿Qué tan caro es llevar una dieta vegana en Chile?
+# Comparación de precios: dieta vegana vs tradicional en Chile
 
-## Introducción
+Para descifrar qué tan caro es llevar una dieta vegana en Chile nos centramos en la fuente donde la mayoría de la gente se abastece de comida: **los supermercados**.  
+De estos, nuestras opciones fueron **Jumbo, Tottus y Líder**, ya que según un reportaje de *La Tercera* estos son los tres supermercados con más opciones veganas.  
 
-Para descifrar **qué tan caro es llevar una dieta vegana en Chile**, nos centramos en la fuente donde la mayoría de la gente se abastece de comida: **los supermercados**.  
-De estos, nuestras opciones fueron **Jumbo, Tottus y Lider**, ya que según un reportaje de *La Tercera* estos son los tres supermercados que actualmente concentran más opciones de productos veganos disponibles para el público.  
-
-Cada integrante del equipo de investigación escogió uno de estos supermercados para recopilar la información.  
-En mi caso particular, fue la **cadena Lider**.  
-
-Para encontrar los precios de los alimentos me basé en la página web oficial del supermercado: [super.lider.cl](https://super.lider.cl).  
-Todos los valores recopilados fueron ordenados en un archivo **Excel** para facilitar el análisis posterior.
+Cada uno de los integrantes escogió uno para recopilar la información; en mi caso fue el de la cadena **Líder**.  
+Para encontrar los precios de los alimentos los busqué en la página web [super.lider.cl](https://super.lider.cl) y todos fueron ordenados en un archivo de **Excel**.
 
 ---
 
-## Fuente de datos y justificación
+## Fuente de los alimentos
 
-El listado de alimentos inicial fue extraído del **Informe Mensual: Valor de la Canasta Básica de Alimentos y Líneas de Pobreza** correspondiente al mes de agosto, elaborado por el **Ministerio de Desarrollo Social y Familia**.  
+El listado de alimentos lo sacamos del **Informe Mensual: Valor de la Canasta Básica de Alimentos y Líneas de Pobreza** correspondiente al mes de agosto, elaborado por el **Ministerio de Desarrollo Social y Familia**.  
 
-Este informe es clave porque incluye los alimentos que más compran las familias chilenas mes a mes, además de registrar las **variaciones de precio** que experimentan a lo largo del tiempo.  
-La metodología estatal asegura representatividad en la muestra, y nos permitió tener un punto de comparación objetivo para elaborar nuestras listas de precios.
+En esta lista se incluyen los alimentos que más compran las familias chilenas durante cada mes y se anotan las variaciones de costo que tienen entre meses.
 
 ---
 
 ## Problemas detectados
 
-### 1. Productos no concretos
-Al revisar el listado oficial, me encontré con el primer gran problema:  
-no todos los ítems eran alimentos concretos que se pudieran comprar directamente en un supermercado.  
+1. **Alimentos no concretos**  
+   No todos eran alimentos específicos que se pudieran comprar en el supermercado; también se incluyen preparaciones como completos, colaciones o postres.  
+   → Estos casos se eliminaron del estudio ya que no era posible encontrar valores en supermercados.
 
-En algunos casos, el informe incluía **preparaciones**, tales como completos, colaciones escolares o postres.  
-En estos casos, decidí **eliminarlos del estudio**, ya que no era posible encontrar un precio unitario en los supermercados.  
-Si los hubiésemos mantenido, se habría introducido un sesgo, pues cada preparación depende de múltiples ingredientes y no es comparable con un producto envasado.
-
----
-
-### 2. Construcción de una lista vegana
-El segundo desafío fue la creación de un **listado alternativo en versión vegana**.  
-Esto significaba **buscar alimentos sustitutos** que reemplazaran a las versiones tradicionales.  
-
-- Por ejemplo, los diferentes tipos de carne incluidos en la canasta debían ser reemplazados por **carnes vegetales**.  
-- Los lácteos convencionales debían sustituirse por **bebidas vegetales o yogures veganos**.  
-- Los embutidos de origen animal, por productos a base de **soya, legumbres o gluten de trigo**.  
-
-Este proceso fue uno de los más complejos, ya que las alternativas veganas no siempre están claramente definidas ni disponibles en las mismas categorías.
+2. **Creación de un listado vegano**  
+   Fue necesario crear una versión vegana de la canasta, reemplazando carnes y productos de origen animal por alternativas vegetales.
 
 ---
 
-### 3. Organización de la base de datos
-Creé un archivo de Excel y lo ordené con **cuatro columnas principales**:
+## Metodología
 
-1. **Tipo de alimento**  
-2. **Marca**  
-3. **Precio**  
-4. **Contenido del producto (gramos o mililitros)**  
+- Se creó un archivo de Excel con cuatro columnas:  
+  1. Tipo de alimento  
+  2. Marca  
+  3. Precio  
+  4. Contenido del producto  
 
-Este procedimiento lo realicé **dos veces**: una para la canasta tradicional y otra para la vegana.  
-De esta forma, pudimos comparar de manera directa ambos listados.
-
-Los datos fueron recopilados entre el **23 y el 26 de septiembre**.  
-El criterio utilizado fue siempre **escoger el producto más económico** dentro de cada categoría, tomando en cuenta el contenido neto del envase.
-
----
-
-### 4. Categorías demasiado amplias
-Otro problema surgió en los casos en que el listado oficial incluía categorías demasiado amplias, por ejemplo **“chocolate”** o **“caramelo”**.  
-
-Dado que estas categorías abarcan una enorme cantidad de opciones, decidí **seleccionar un producto representativo**, privilegiando siempre el que fuera **económico y ampliamente disponible**.  
-Esto garantizó cierta homogeneidad en la comparación y evitó que la canasta quedara distorsionada por productos de lujo o poco comunes.
+- Esto se hizo dos veces: una para la **canasta tradicional** y otra para la **canasta vegana**.  
+- La recopilación de datos en la web de Líder se realizó entre el **23 y el 26 de septiembre**.  
+- El criterio de selección fue incluir **el producto más económico en relación a su contenido**.  
+- En categorías amplias como *chocolate* o *caramelo*, se eligieron alimentos representativos y de bajo costo.
 
 ---
 
-## Resultados obtenidos
+## Resultados
 
-Al realizar el análisis, surgieron algunas observaciones interesantes:
+- **Marca más repetida:** *Líder*.  
+  Sus productos eran entre 100 y 200 pesos más baratos que el resto, posiblemente porque no tienen costos adicionales de transporte o envíos.
 
-- La **marca que más se repite** en el listado es **Lider**.  
-  - La mayoría de sus productos eran entre **$100 y $200 pesos más baratos** que los de otras marcas.  
-  - Esto probablemente se debe a que, al ser productos de marca propia, no requieren de gastos adicionales en transporte ni en distribución de terceros.
+- **Producto más caro:** *Asiento* (corte de carne) → **$10.990**  
+- **Producto más barato:** *Yogurt* → **$250**
 
-- El **alimento más caro** de la lista es el **asiento** (un corte de carne de vacuno), con un valor de **$10.990**.  
-- El **producto más barato** resultó ser el **yogurt**, con un precio de apenas **$250 pesos**.  
-
-En términos generales, se puede observar que las **alternativas veganas a los alimentos tradicionales** suelen ser **más costosas por unidad**, aunque en algunos casos la diferencia no es significativa.
+En general, las **alternativas veganas** suelen ser un poco más costosas que los alimentos tradicionales.
 
 ---
 
-## Reflexiones adicionales
+## Conclusiones
 
-Algo interesante que descubrí es que, si bien muchos productos veganos tienen un costo mayor al de sus equivalentes tradicionales, la **suma total** de la lista muestra una realidad distinta.  
+Después de sumar los precios de ambos listados, los resultados fueron:
 
-Esto se explica porque la canasta vegana elimina productos cárnicos de alto costo (como cortes de vacuno y pollo), y los reemplaza por alternativas vegetales relativamente más baratas en comparación.  
+- **Canasta vegana:** $101.380  
+- **Canasta tradicional:** $174.670  
 
-Además, la disponibilidad de productos **marca propia Lider** influyó positivamente en la reducción de precios dentro de la lista vegana.  
-Este aspecto pone en evidencia cómo los supermercados con líneas de productos internos pueden favorecer el acceso a alternativas más asequibles.
-
----
-
-## Conclusiones finales
-
-Luego de hacer la sumatoria de los precios, los resultados fueron los siguientes:
-
-- **Lista vegana**: $101.380 pesos  
-- **Lista omnívora**: $174.670 pesos  
+➡️ **La lista vegana resultó más barata que la omnívora.**
