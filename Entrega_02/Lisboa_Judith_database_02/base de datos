@@ -1,6 +1,4 @@
-import pandas as pd
-df = pd.read_csv("/content/BASE-DE-DATOSJumbo.csv")
-df.head(136)
+
 "CANASTA TRADICIONAL","","","","","CANASTA VEGANA","","","","","","","",""
 "PRODUCTO","MARCA","PRECIO SUPERMERCADO JUMBO","CANTIDAD DEL PRODUCTO","","PRODUCTO","MARCA","PRECIO SUPERMERCADO JUMBO ","CANTIDAD DEL PRODUCTO","","","","",""
 "Arroz blanco","Tucapel","$2,850 ","1kg","","Arroz blanco","Tucapel","$2,850 ","1kg","","los precios corresponden al producto y marca má economica del mercado","","",""
