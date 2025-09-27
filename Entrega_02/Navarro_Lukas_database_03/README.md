@@ -102,19 +102,3 @@ Luego de hacer la sumatoria de los precios, los resultados fueron los siguientes
 
 - **Lista vegana**: $101.380 pesos  
 - **Lista omnívora**: $174.670 pesos  
-
-➡️ **Conclusión principal:**  
-Aunque individualmente las alternativas veganas suelen ser más costosas, en conjunto la **lista vegana resultó más barata** que la lista omnívora.  
-
-Este hallazgo contradice en parte la percepción social de que “ser vegano es más caro”.  
-En realidad, depende de los productos seleccionados, de los supermercados disponibles y de la metodología utilizada para comparar precios.  
-
----
-
-## Cierre
-
-En resumen, este ejercicio muestra que **llevar una dieta vegana en Chile no necesariamente implica un gasto mayor**, siempre y cuando se seleccionen productos básicos y representativos, privilegiando marcas propias y opciones más accesibles.  
-
-El análisis también revela la importancia de **ajustar los listados oficiales** cuando se hacen estudios de este tipo, ya que categorías amplias o productos preparados pueden sesgar los resultados.  
-
-Finalmente, este estudio abre la puerta a futuras investigaciones más profundas, por ejemplo, comparando no solo el costo monetario, sino también el **valor nutricional** de cada lista y el impacto ambiental de la producción de alimentos.
