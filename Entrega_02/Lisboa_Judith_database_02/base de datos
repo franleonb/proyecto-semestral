@@ -1,5 +1,5 @@
 import pandas as pd
-df = pd.read_csv("/content/database_judith.csv")
+df = pd.read_csv("/content/BASE-DE-DATOSJumbo.csv")
 df.head(136)
 "CANASTA TRADICIONAL","","","","","CANASTA VEGANA","","","","","","","",""
 "PRODUCTO","MARCA","PRECIO SUPERMERCADO JUMBO","CANTIDAD DEL PRODUCTO","","PRODUCTO","MARCA","PRECIO SUPERMERCADO JUMBO ","CANTIDAD DEL PRODUCTO","","","","",""
