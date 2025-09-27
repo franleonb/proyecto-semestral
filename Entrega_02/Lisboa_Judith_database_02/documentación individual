@@ -1,0 +1,17 @@
+El proceso de la creación de la base de datos se hizo desde cero utilizando el informe mensual de agosto del Valor de la Canasta Básica de Alimentos y Líneas de Pobreza, con el objetivo de tener un listado específico de los productos 
+  de la canasta tradicional, para tener una idea clara de los productos que la gente más consume y no crearla nosotros para no caer en ningún tipo de sesgo a la hora de elegir productos, Aunque si tuvimos que sacar del listado para la 
+  base de datos, cosas como almuerzos, colaciones o postres porque no se aclara que cosas contiene específicamente para su armado. Luego se utilizo la pagina de supermercado Jumbo para acceder a los precios de cada producto, en total
+  tenemos la comparación con 3 supermercado: Tottus, Líder y Jumbo y los elegimos Basados en un artículo de La Tercera titulado “Estos son los tres supermercados con más opciones veganas”. En un Excel se realizo la recopilación de
+  datos de forma ordenada entre producto, marca, precio del supermercado correspondiente a cada integrante en mi caso Jumbo y la cantidad del producto, que podía ser Litros, gramos, KG, unidades, etc.
+-	https://observatorio.ministeriodesarrollosocial.gob.cl/nueva-serie-cba-2025
+-	https://www.latercera.com/servicios/noticia/estos-son-los-supermercados-con-mas-productos-veganos-en-chile/RMQ3KUKL3RBOZOKZSCZL323REU/
+-	https://www.jumbo.cl/
+Los criterios que utilizamos para elegir que producto utilizar fue el que se encontrara al menor precio lo que puede variar dependiendo de la fecha, oferta o disponibilidad del producto. En relación con la Canasta vegana quisimos
+seguir la misma línea y buscar el producto símil de la canasta tradicional para replicarla en la vegana, como existen muchos productos que no tienen su sustituto vegano tuvimos que agregar otros a criterio personal que se basó
+en la búsqueda y consulta a personas veganas para ver que consideran indispensable. Finalmente logrando 2 listados similares pero la vegana quedo con menos cantidad de productos debido a su dificultad para encontrar sustituto
+o disponibilidad. No utilizamos ninguna herramienta, todo fue manual.
+1.	¿Qué canasta es la más cara y cuál la más económica? Según el análisis la canasta más cara es la tradicional con un valor de $207.215 con una cantidad total de 67 productos de todo tipo. La canasta más económica y con un total
+de 60 productos, con un valor de $153.303. Sin embarga hay productos de la canasta vegana que no tienen precio por su nula disponibilidad en el supermercado lo que inevitablemente reduce su precio final. 
+2.	¿Qué supermercado tiene mayor disponibilidad de productos Veganos? El supermercado Jumbo cuenta con 55 productos disponible de 60, siendo solo 5 los que no estaban disponibles. 
+  El supermercado Líder de 60 productos contaba con 53, siendo 7 los que no estaban disponibles y por parte del supermercado Tottus son 10 lo productos que no estaban disponibles siendo 50 de 60 productos.
+3.	¿Cuál es la marca que más se repite? En la canasta tradicional es la marca Cuisine&Co y granel Jumbo y por parte de la canasta vegana lo mismo granel Jumbo y Cuisine&Co.
