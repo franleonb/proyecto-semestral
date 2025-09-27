@@ -1,9 +1,0 @@
-Ficha técnica Lukas Navarro
-•	Fuente de los datos: El listado de alimentos lo sacamos del Informe Mensual: Valor de la Canasta Básica de Alimentos y Líneas de Pobreza correspondientes al mes de agosto y elaborado por el Ministerio de Desarrollo Social y Familia. Además, utilice la página del supermercado Líder.
-https://observatorio.ministeriodesarrollosocial.gob.cl/nueva-serie-cba-2025
-https://super.lider.cl/ 
-•	Metodología de la construcción de la base: Para la metodología usamos la lista de productos del informe de agosto y luego buscar el precio del producto en la pagina del supermercado Líder, siempre eligiendo el de menos precio. Después, hice una canasta con el símil de los productos en su versión vegana. La base de dato esta creada de cero.
-•	Alcance de los datos: Tenemos, en ambos tipos de canastas, los productos, la marca, el precio y la cantidad (L, g, kg, unidades) de los productos. Al final de cada canasta esta la suma de los precios del total de productos para ver cuál es más económica. 
-•	Característica de los datos: Todos los productos elegidos son el base a los datos del informe de la canasta básica y los precios, marca y cantidad del supermercado Líder y varías según la marca y la cantidad, la oferta también es un factor que hace variar los precios. Las canastas están ordenadas por su tipo, tradicional o vegana.
-•	Variables incorporadas: variable | descripción: Si se cambia el precio de algún producto se cambia el total de la suma del precio de la canasta.
-•	Otras observaciones que tengan sobre la base: No
