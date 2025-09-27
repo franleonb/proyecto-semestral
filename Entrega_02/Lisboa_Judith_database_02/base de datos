@@ -1,3 +1,7 @@
+import pandas as pd
+df = pd.read_csv("/content/database_judith.csv")
+df.head(136)
+
 CANASTA TRADICIONAL,,,,,,,,,
 PRODUCTO,MARCA,PRECIO SUPERMERCADO JUMBO,CANTIDAD DEL PRODUCTO,,,,,,
 Arroz blanco,Tucapel,"$2,850 ",1kg,,,,,,
