@@ -1,136 +1,140 @@
-import pandas as pd
-df = pd.read_csv("/content/database_judith.csv")
-df.head(136)
-
-CANASTA TRADICIONAL,,,,,,,,,
-PRODUCTO,MARCA,PRECIO SUPERMERCADO JUMBO,CANTIDAD DEL PRODUCTO,,,,,,
-Arroz blanco,Tucapel,"$2,850 ",1kg,,,,,,
-Pan corriente,Granel Jumbo,"$2,190 ",1 kg,,,,,,
-Espirales (fideos),Carozzi,$850 ,400 g,,,,,,
-Harina de trigo,Cuisine&Co,"$1,000 ",1 kg,,,,,,
-Avena,Quaker,"$2,150 ",700 g,,,,,,
-Asiento,Carniceria Jumbo,"$14,990.00 ",1 kg,,,,,,
-Carne Molida,Cuisine&Co,"$5,590 ",500 g,,,,,,
-Chuleta de cerdo,Cuisine&Co,"$4,790 ",600 g,,,,,,
-Costillar de cerdo,cuisine&Co,"$17,140 ",1 kg,,,,,,
-Pulpa de cerdo,Super Cerdo,"$7,990 ",900 g,,,,,,
-Pechuga de pollo ,Ariztia,"$4,490 ",500 g,,,,,,
-Pollo entero,Canto del Gallo ,"$8,985 ",1 unidad,,,,,,
-Truto de pollo,Super Pollo,"$3,590 ",800 g,,,,,,
-Carne de pavo molida,Ariztia,"$3,290 ",400 g,,,,,,
-Longaniza,La Preferida,"$4,990 ",500 g,,,,,,
-Merluza,Cuisine&Co,"$4,990 ",500 g,,,,,,
-Choritos frescos,Robinson Crusoe,"$4,110 ",425 g,,,,,,
-Jurel en conserva,San Jose,"$1,590 ",260 g,,,,,,
-Surtido en conserva,Robinson Crusoe,"$3,490 ",425 g,,,,,,
-Salchicha de ave,winter ,"$3,990 ",20 unidades,,,,,,
-Salchicha tradicional,winter ,"$3,990 ",20 unidades,,,,,,
-Jamon de cerdo,La crianza,"$2,138 ",200 g,,,,,,
-Pate,PF,$740 ,125 g,,,,,,
-Leche entera,Lonco Leche ,$952 ,1 L,,,,,,
-Leche en polvo entera,Soprole,"$5,850 ",800 g,,,,,,
-Yogurt,Soprole,$310 ,120 g ,,,,,,
-Queso gauda,Calo,"$3,790 ",233 g,,,,,,
-Queso fresco,Quillayes,"$2,450 ",270 g,,,,,,
-Queso crema,Colun,"$1,570 ",200 g,,,,,,
-Huevos,Yemita,"$3,290 ",12 unidades,,,,,,
-Mantequilla con sal,Lonco Leche ,"$1,785 ",200 g,,,,,,
-Margarina,Soprole,"$2,750 ",500 g,,,,,,
-Aceite vegetal,Cuisine&Co,"$1,850 ",900 ml,,,,,,
-Platano,Granel Jumbo,$795 ,1 a 2 unidades,,,,,,
-Manzana,Granel Jumbo,"$1,295 ",2 a 3 unidades,,,,,,
-Porotos,Cuisine&Co,"$3,450 ",1 kg,,,,,,
-Lentejas,Cuisine&Co,"$2,490 ",1 kg,,,,,,
-Lechuga,Granel Jumbo,"$1,390 ",1 unidad,,,,,,
-Zapallo,Proverde,"$1,990 ",700 g,,,,,,
-Limon ,Granel Jumbo,"$1,790 ",1 kg,,,,,,
-Palta,Granel Jumbo,"$3,245 ",2 unidades,,,,,,
-Tomate,Granel Jumbo,$995 ,1 a 2 unidades,,,,,,
-Zanahoria,Granel Jumbo,"$1,290 ",1 kg,,,,,,
-Cebolla,Granel Jumbo,$795 ,1 a 2 unidades,,,,,,
-Choclo congelado,Minuto Verde,"$1,690 ",500 g,,,,,,
-Papa,Granel Jumbo,$990 ,1 kg ,,,,,,
-Azucar blanca,Cuisine&Co,"$1,290 ",1 kg,,,,,,
-Chocolate ,Nestle,"$1,590 ",88 g,,,,,,
-Salsa de tomate,Lucchetti,$790 ,200g,,,,,,
-Helado familiar un sabor,Savory,"$3,790 ",1 L,,,,,,
-Cafe,Cuisine&Co,"$4,490 ",150 g,,,,,,
-Te,Supremo,"$2,490 ",50 unidades,,,,,,
-Bebida gaseosa,Coca Cola,"$3,290 ",3 L,,,,,,
-Jugo liquido,Guallarauco,"$2,690 ",1 L,,,,,,
-Nectar liquido,Del Valle,"$1,690 ",1.5 L,,,,,,
-Galleta dulce ,Nik,$580 ,71 g,,,,,,
-Caramelo,Merello,$850 ,90 g,,,,,,
-Galleta salada,Cracker,$450 ,90 g,,,,,,
-Papas fritas,Marco Polo,"$2,490 ",350 g,,,,,,
-Agua mineral,Manantial,"$1,000 ",3 L,,,,,,
-Refresco en polvo,Zuko,$280 ,15 g,,,,,,
-Bebida energizante,Score,"$1,000 ",473 cc,,,,,,
-Refresco isotonico,Power Ade,"$1,250 ",1.1 L,,,,,,
-Torta de 15 a 20 personas,Del Monte,"$17,990 ",15 porciones,,,,,,
-Prepizza familiar,Ideal,"$2,490 ",2 unidades,,,,,,
-67 productos,total ,"$207,215 ",-,,,,,,
-CANASTA VEGANA,,,,,,,,,
-PRODUCTO,MARCA,PRECIO SUPERMERCADO JUMBO ,CANTIDAD DEL PRODUCTO,,,,,,
-Arroz blanco,Tucapel,"$2,850 ",1kg,,,,,,
-Pan integral,Castano,"$1,750",400 gramos,,,,,,
-Harina de trigo,Cuisine&Co,"$1,000 ",1 kg,,,,,,
-Avena,Quaker,"$2,150 ",700 g,,,,,,
-Fideos (sin huevo),Vermicelli,"$1,690 ",200 g,,,,,,
-Carne molida vegana,Vegmonkey,"$3,192 ",400 g,,,,,,
-Proteina de soya ,Mi tierra,"$1,981 ",300 g,,,,,,
-Nuggets veganos,La Crianza,"$2,843 ",400 g,,,,,,
-Hamburguesa vegana,La Crianza,$788 ,100 g,,,,,,
-Croqueta vegana,No disponible,NO,NO,,,,,,
-Pollo vegano,No disponible,NO,NO,,,,,,
-Longaniza vegana,Beyond Meat,"$11,892 ",400 g,,,,,,
-Pescado vegano,Gardein,"$8,590 ",288 g,,,,,,
-Salchichas veganas,Riku,"$2,627 ",250 g,,,,,,
-Porotos negros,Banquete,"$2,550 ",1 kg,,,,,,
-Porotos blancos,Martini,"$1,940 ",500 g,,,,,,
-Garbanzos,Banquete,"$4,550 ",1 kg,,,,,,
-Palmitos,Wasil,"$1,990 ",220 g,,,,,,
-Arvejas,Minuto Verde,"$1,690 ",500 g,,,,,,
-Tofu,Vegan Leben,"$2,490 ",200 g,,,,,,
-Almendras,Cuisine&Co,"$1,690 ",80 g,,,,,,
-Mani,Evercrips,"$2,123 ",380 g,,,,,,
-Leche vegetal,Cuisine&Co,"$1,850 ",1 L,,,,,,
-Yogurt vegano,Lonco Leche,$504 ,130 g,,,,,,
-Queso vegano,Cuisine&Co,"$1,990 ",8 laminas,,,,,,
-Queso crema vegano,Plant Good,"$4,890 ",200 g,,,,,,
-Sustituto de huevo ,Orgran,"$2,618 ",200 g,,,,,,
-Mantequilla vegana,Earth,"$8,890 ",425 g,,,,,,
-Margarina vegetal,No disponible,NO,NO,,,,,,
-Aceite vegetal,Cuisine&Co,"$1,850 ",900 ml,,,,,,
-Platano,Granel Jumbo,$795 ,1 a 2 unidades,,,,,,
-Manzana,Granel Jumbo,"$1,295 ",2 a 3 unidades,,,,,,
-Lentejas,Cuisine&Co,"$2,490 ",1 kg,,,,,,
-Lechuga,Granel Jumbo,"$1,390 ",1 unidad,,,,,,
-Zapallo,Proverde,"$1,990 ",700 g,,,,,,
-Limon ,Granel Jumbo,"$1,790 ",1 kg,,,,,,
-Palta,Granel Jumbo,"$3,245 ",2 unidades,,,,,,
-Tomate,Granel Jumbo,$995 ,1 a 2 unidades,,,,,,
-Zanahoria,Granel Jumbo,"$1,290 ",1 kg,,,,,,
-Cebolla,Granel Jumbo,$795 ,1 a 2 unidades,,,,,,
-Choclo congelado,Minuto Verde,"$1,690 ",500 g,,,,,,
-Papa,Granel Jumbo,$990 ,1 kg ,,,,,,
-Azucar,Cuisine&Co,"$1,290 ",1 kg,,,,,,
-Chocolate vegano,Valor,"$3,790 ",100 g,,,,,,
-Salsa de tomate,Lucchetti,$790 ,200g,,,,,,
-Helado vegano,No disponible,NO,NO,,,,,,
-Cafe,Cuisine&Co,"$4,490 ",150 g,,,,,,
-Te,Supremo,"$2,490 ",50 unidades,,,,,,
-Bebida gaseosa (apta vegana),Sprite,"$2,450 ",3 L,,,,,,
-Jugo liquido,Guallarauco,"$2,690 ",1 L,,,,,,
-Nectar liquido,Del Valle,"$1,690 ",1.5 L,,,,,,
-Galleta dulce vegana,Ecovida,"$2,390 ",140 g,,,,,,
-Caramelo vegano,Gicopa,"$2,590 ",150 g,,,,,,
-Galleta salada vegana,Slez,"$1,000 ",140 g,,,,,,
-Papas fritas,Marco Polo,"$2,490 ",350 g,,,,,,
-Agua mineral,Manantial,"$1,000 ",3 L,,,,,,
-Refresco en polvo,Zuko,$280 ,15 g,,,,,,
-Bebida energizante,Score,"$1,000 ",473 cc,,,,,,
-Refresco isotonico,Power Ade,"$1,250 ",1.1 L,,,,,,
-Torta vegana de 15 a 20 personas,Jumbo,"$19,900 ",12  porciones,,,,,,
-Prepizza vegana familiar,No disponible,NO,NO,,,,,,
-60 productos,total,"$153,303 ",-,,,,,,
+"CANASTA TRADICIONAL","","","","","CANASTA VEGANA","","","","","","","",""
+"PRODUCTO","MARCA","PRECIO SUPERMERCADO JUMBO","CANTIDAD DEL PRODUCTO","","PRODUCTO","MARCA","PRECIO SUPERMERCADO JUMBO ","CANTIDAD DEL PRODUCTO","","","","",""
+"Arroz blanco","Tucapel","$2,850 ","1kg","","Arroz blanco","Tucapel","$2,850 ","1kg","","los precios corresponden al producto y marca má economica del mercado","","",""
+"Pan corriente","Granel Jumbo","$2,190 ","1 kg","","Pan integral","Castaño","$1,750","400 gramos","","puede variar por las ofertas del momento y la disponibilidad del producto dependiendo de cada super","","",""
+"Espirales (fideos)","Carozzi","$850 ","400 g","","Harina de trigo","Cuisine&Co","$1,000 ","1 kg","","","","",""
+"Harina de trigo","Cuisine&Co","$1,000 ","1 kg","","Avena","Quaker","$2,150 ","700 g","","","","",""
+"Avena","Quaker","$2,150 ","700 g","","Fideos (sin huevo)","","","","","","","",""
+"Asiento","Carniceria Jumbo","$14,990.00 ","1 kg","","Carne molida vegana","","","","","","","",""
+"Carne Molida","Cuisine&Co","$5,590 ","500 g","","Proteína de soya ","","","","","","","",""
+"Chuleta de cerdo","Cuisine&Co","$4,790 ","600 g","","Nuggets veganos","","","","","","","",""
+"Costillar de cerdo","cuisine&Co","$17,140 ","1 kg","","Hamburguesa vegana","NOTCO","","","","","","",""
+"Pulpa de cerdo","Super Cerdo","$7,990 ","900 g","","Croqueta vegana","","","","","","","",""
+"Pechuga de pollo ","Ariztía","$4,490 ","500 g","","Pollo vegano","","","","","","","",""
+"Pollo entero","Canto del Gallo ","$8,985 ","peso variablen(envasado)","","Longaniza vegana","","","","","","","",""
+"Truto de pollo","Super Pollo","$3,590 ","800 g","","Pescado vegano","","","","","","","",""
+"Carne de pavo molida","Ariztía","$3,290 ","400 g","","Salchichas veganas","","","","","","","",""
+"Longaniza","La Preferida","$4,990 ","","","Porotos negros","","","","","","","",""
+"Merluza","","","","","Porotos blancos","","","","","","","",""
+"Choritos frescos","","","","","Garbanzos","","","","","","","",""
+"Jurel en conserva","San José","$1,590 ","260 g","","Palmitos","","","","","","","",""
+"Surtido en conserva","","","","","Arvejas","","","","","","","",""
+"Salchicha de ave","winter ","$3,990 ","1 kg (20 unidades)","","Tofu","","","","","","","",""
+"Salchicha tradicional","winter ","$3,990 ","1 kg (20 unidades)","","Almendras","","","","","","","",""
+"Jamón de cerdo","La crianza","$2,138 ","200 g","","Maní","","","","","","","",""
+"Paté","PF","$740 ","125 g","","Leche vegetal","","","","","","","",""
+"Leche entera","Lonco Leche ","$952 ","1 L","","Yogurt vegano","","","","","","","",""
+"Leche en polvo entera","Soprole","$5,850 ","800 g","","Queso vegano","","","","","","","",""
+"Yogurt","Soprole","$310 ","120 g ","","Queso crema vegano","","","","","","","",""
+"Queso gauda","Calo","$3,790 ","233 g","","Sustituto de huevo (harina de garbanzo, linaza o aquafaba)","","","","","","","",""
+"Queso fresco","Quillayes","$2,450 ","270 g","","Mantequilla vegana","","","","","","","",""
+"Queso crema","Colun","$1,570 ","200 g","","Margarina vegetal","","","","","","","",""
+"Huevos","Yemita","$3,290 ","12 unidades","","Aceite vegetal","","","","","","","",""
+"Mantequilla con sal","Lonco Leche ","$1,785 ","200 g","","Platano","","","","","","","",""
+"Margarina","Soprole","$2,750 ","500 g","","Manzana","","","","","","","",""
+"Aceite vegetal","Cuisine&Co","$1,850 ","900 ml","","Lentejas","","","","","","","",""
+"Platano","Granel Jumbo","$795 ","1 a 2 unidades","","Lechuga","","","","","","","",""
+"Manzana","Granel Jumbo","$1,295 ","2 a 3 unidades","","Zapallo","","","","","","","",""
+"Porotos","Cuisine&Co","$3,450 ","1 kg","","Limón ","","","","","","","",""
+"Lentejas","Cuisine&Co","$2,490 ","1 kg","","Palta","","","","","","","",""
+"Lechuga","Granel Jumbo","$1,390 ","1 unidad","","Tomate","","","","","","","",""
+"Zapallo","Proverde","$1,990 ","700 g","","Zanahoria","","","","","","","",""
+"Limón ","Granel Jumbo","$1,790 ","1 kg","","Cebolla","","","","","","","",""
+"Palta","Granel Jumbo","$3,245 ","2 unidades","","Choclo congelado","","","","","","","",""
+"Tomate","Granel Jumbo","$995 ","1 a 2 unidades","","Papa","","","","","","","",""
+"Zanahoria","Granel Jumbo","$1,290 ","1 kg","","Azúcar","","","","","","","",""
+"Cebolla","Granel Jumbo","$795 ","1 a 2 unidades","","Chocolate vegano","","","","","","","",""
+"Choclo congelado","Minuto Verde","$1,690 ","500 g","","Salsa de tomate","","","","","","","",""
+"Papa","Granel Jumbo","$990 ","1 kg (20 unidades)","","Helado vegano","","","","","","","",""
+"Azúcar blanca","Cuisine&Co","$1,290 ","1 kg","","Café","","","","","","","",""
+"Chocolate ","Nestlé","$1,590 ","88 g","","Té","","","","","","","",""
+"Salsa de tomate","Lucchetti","$790 ","200g","","Bebida gaseosa (apta vegana)","","","","","","","",""
+"Helado familiar un sabor","","","","","Jugo liquido","","","","","","","",""
+"Café","","","","","Néctar líquido","","","","","","","",""
+"Té","","","","","Galleta dulce vegana","","","","","","","",""
+"Bebida gaseosa","","","","","Caramelo vegano","","","","","","","",""
+"Jugo líquido","","","","","Galleta salada vegana","","","","","","","",""
+"Néctar líquido","","","","","Papas fritas","","","","","","","",""
+"Galleta dulce","","","","","Agua mineral","","","","","","","",""
+"Caramelo","","","","","Refresco en polvo","","","","","","","",""
+"Galleta salada","","","","","Bebida energizante","","","","","","","",""
+"Papas fritas","","","","","Refresco isotónico","","","","","","","",""
+"Agua mineral","","","","","Torta vegana de 15 a 20 personas","","","","","","","",""
+"Refresco en polvo","","","","","Prepizza vegana familiar","","","","","","","",""
+"Bebida energizante","","","","","","","","","","","","",""
+"Refresco isotónico","","","","","","","","","","","","",""
+"Torta de 15 a 20 personas","","","","","","","","","","","","",""
+"Prepizza familiar","","","","","","","","","","","","",""
+"","","","","","","","","","","","","",""
+"","","","","","","","","","","","","",""
+"","","","","","","","","","","","","",""
+"","","","","","","","","","","","","",""
+"","","","","","","","","","","","","",""
+"","","","","","","","","","","","","",""
+"","","","","","","","","","","","","",""
+"","","","","","","","","","","","","",""
+"","","","","","","","","","","","","",""
+"","","","","","","","","","","","","",""
+"","","","","","","","","","","","","",""
+"","","","","","","","","","","","","",""
+"","","","","","","","","","","","","",""
+"","","","","","","","","","","","","",""
+"","","","","","","","","","","","","",""
+"","","","","","","","","","","","","",""
+"","","","","","","","","","","","","",""
+"","","","","","","","","","","","","",""
+"","","","","","","","","","","","","",""
+"","","","","","","","","","","","","",""
+"","","","","","","","","","","","","",""
+"","","","","","","","","","","","","",""
+"","","","","","","","","","","","","",""
+"","","","","","","","","","","","","",""
+"","","","","","","","","","","","","",""
+"","","","","","","","","","","","","",""
+"","","","","","","","","","","","","",""
+"","","","","","","","","","","","","",""
+"","","","","","","","","","","","","",""
+"","","","","","","","","","","","","",""
+"","","","","","","","","","","","","",""
+"","","","","","","","","","","","","",""
+"","","","","","","","","","","","","",""
+"","","","","","","","","","","","","",""
+"","","","","","","","","","","","","",""
+"","","","","","","","","","","","","",""
+"","","","","","","","","","","","","",""
+"","","","","","","","","","","","","",""
+"","","","","","","","","","","","","",""
+"","","","","","","","","","","","","",""
+"","","","","","","","","","","","","",""
+"","","","","","","","","","","","","",""
+"","","","","","","","","","","","","",""
+"","","","","","","","","","","","","",""
+"","","","","","","","","","","","","",""
+"","","","","","","","","","","","","",""
+"","","","","","","","","","","","","",""
+"","","","","","","","","","","","","",""
+"","","","","","","","","","","","","",""
+"","","","","","","","","","","","","",""
+"","","","","","","","","","","","","",""
+"","","","","","","","","","","","","",""
+"","","","","","","","","","","","","",""
+"","","","","","","","","","","","","",""
+"","","","","","","","","","","","","",""
+"","","","","","","","","","","","","",""
+"","","","","","","","","","","","","",""
+"","","","","","","","","","","","","",""
+"","","","","","","","","","","","","",""
+"","","","","","","","","","","","","",""
+"","","","","","","","","","","","","",""
+"","","","","","","","","","","","","",""
+"","","","","","","","","","","","","",""
+"","","","","","","","","","","","","",""
+"","","","","","","","","","","","","",""
+"","","","","","","","","","","","","",""
+"","","","","","","","","","","","","",""
+"","","","","","","","","","","","","",""
+"","","","","","","","","","","","","",""
+"","","","","","","","","","","","","",""
+"","","","","","","","","","","","","",""
+"","","","","","","","","","","","","",""
+"","","","","","","","","","","","","",""
