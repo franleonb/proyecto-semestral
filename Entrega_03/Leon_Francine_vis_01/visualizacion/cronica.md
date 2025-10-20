@@ -1,28 +1,22 @@
 # Crónica de visualización
 
+### Caperucita y el lobo: un viaje por la canasta vegana y tradicional
 
+![alttext](visualizacion/visualization.png)
 
+En un bosque lleno de senderos y sorpresas, Caperucita Roja llevaba su canasta vegana camino a la casa de la abuela, mientras que el lobo cargaba su canasta tradicional, llena de productos de origen animal. Cada paso de su camino se convirtió en una oportunidad para comparar las dos canastas y descubrir cómo se transformaría la alimentación si se adoptara una dieta vegana.
 
-La visualización de datos muestra cómo los productos de la canasta tradicional se transforman al pasar a la versión vegana. Para analizar estos cambios, se identificaron seis tipos de modificaciones que reflejan la dinámica de adaptación de los alimentos: Mantenidos, Reemplazados, Eliminados, Agregados, Extendidos y Disminuidos.
+La visualización de datos muestra, como si fueran las paradas del camino, cómo los productos de la canasta tradicional del lobo se transforman al pasar a la versión vegana de Caperucita. Se identificaron seis tipos de cambios:
 
-- **Mantenidos**: productos que permanecen iguales en ambas canastas. Estos alimentos no requieren modificación para adaptarse a la versión vegana y representan la continuidad dentro de la dieta. Por ejemplo, frutas y verduras frescas se mantienen sin cambios. Esta categoría permite observar qué elementos básicos de la alimentación no se ven afectados por la transición hacia opciones veganas.
+- **Mantenidos**: productos que permanecen iguales en ambas canastas. Son aquellos alimentos básicos que ambos llevan sin modificaciones, como frutas, verduras y algunos cereales.  
+- **Reemplazados**: productos de la canasta del lobo sustituidos por alternativas vegetales en la canasta de Caperucita. Por ejemplo, la leche líquida se cambia por leche de soya, avena o almendra.  
+- **Eliminados**: productos que desaparecen en la canasta vegana porque no tienen sustituto o no se consideran necesarios, como ciertos embutidos o quesos tradicionales que el lobo sí tiene.  
+- **Agregados**: nuevos productos que solo aparecen en la canasta vegana de Caperucita, como proteínas vegetales preparadas o alternativas de queso vegano.  
+- **Extendidos**: un producto se divide en varios productos veganos. Por ejemplo, las legumbres secas del lobo se convierten en porotos, lentejas y garbanzos en la canasta de Caperucita. Cada barra de esta categoría representa el producto original que se extendió.  
+- **Disminuidos**: varios productos se consolidan en uno solo. Por ejemplo, leche líquida y leche en polvo de la canasta del lobo se unifican en una sola opción de leche vegana para Caperucita. La cantidad refleja los productos originales que cambiaron, no el producto final.
 
-- **Reemplazados**: productos de la canasta tradicional que fueron sustituidos por una alternativa vegana equivalente. Un ejemplo serían las hamburguesas o el chocolate, productos que son reemplazados por una versión vegana. Esta categoría refleja la adaptabilidad de ciertos productos, donde la versión vegana cumple la misma función nutricional o culinaria.
+A medida que avanzaban por el bosque, podían ver claramente cuál era el tipo de cambio más frecuente y cómo se distribuían los productos entre las distintas categorías. Algunas categorías, como Mantenidos o Reemplazados, eran más numerosas, mostrando que gran parte de la canasta tradicional podía adaptarse a versiones veganas sin perder funcionalidad. Otras, como Eliminados o Disminuidos, eran menos frecuentes, pero destacaban diferencias importantes en términos de variedad y disponibilidad.
 
-- **Eliminados**: productos que desaparecen completamente en la canasta vegana. Esto incluye aquellos alimentos que no tienen sustituto vegano directo o no se consideran necesarios para la dieta vegana. Un ejemplo de esto serían las cecinas y los productos del mar (pescados y mariscos), ya que no tienen equivalente vegetal comercializado. Esta categoría ayuda a identificar qué elementos de la dieta tradicional quedan excluidos.
+La historia de Caperucita y el lobo ilustra que adaptar la canasta básica a un estilo de vida vegano implica no solo reemplazos directos, sino también reorganización de productos, agregando diversidad en algunas áreas y consolidando en otras. Este viaje por el bosque ayuda a entender qué productos representan mayores diferencias y cómo se mantiene la funcionalidad de la dieta básica sin perder variedad ni accesibilidad.
 
-- **Agregados**: nuevos productos que aparecen exclusivamente en la canasta vegana, como proteínas vegetales o vegetales no contemplados en la canasta tradicional. Estos reflejan la incorporación de alimentos que amplían la oferta disponible y enriquecen la dieta con opciones distintas a las tradicionales.
-
-- **Extendidos**: un producto de la canasta tradicional se divide en varios productos veganos. Por ejemplo, “legumbres secas” pueden transformarse en porotos, lentejas y garbanzos. En el gráfico, cada elemento de esta categoría representa el producto original que se extendió, no los subproductos finales. Esto permite visualizar la diversificación de la oferta vegana a partir de un solo elemento.
-
-- **Disminuidos**: varios productos se consolidan en uno solo. Por ejemplo, leche líquida y leche en polvo se combinan en una sola opción de leche vegana. La cantidad contabiliza los productos originales que se modificaron, no el producto final, mostrando así la simplificación de la canasta en ciertos casos.
-
-El gráfico permite identificar visualmente cuál es el tipo de cambio más frecuente y cómo se distribuyen los productos entre las diferentes categorías. Se observa que algunas categorías, como Mantenidos o Reemplazados, tienden a ser más numerosas, mientras que las categorías de Eliminados o Disminuidos son menos frecuentes, reflejando cambios puntuales pero significativos. Esta información puede ser útil para entender patrones de consumo, disponibilidad de productos y tendencias de la transición hacia una dieta vegana.
-
-Además, esta visualización responde preguntas clave sobre la transformación de la canasta:  
-- ¿Qué porcentaje de productos permanece sin cambios?  
-- ¿Cuántos productos requieren reemplazo o adaptación?  
-- ¿Existen productos nuevos que se incorporan exclusivamente en la canasta vegana?  
-- ¿Qué elementos se consolidan o se diversifican en el proceso de transición?
-
-En conjunto, la crónica y la visualización muestran de manera clara y didáctica los patrones de modificación de la canasta de alimentos, ofreciendo información relevante tanto para análisis de consumo como para la planificación de alternativas veganas. Esta herramienta permite a investigadores, consumidores y planificadores entender de manera rápida y visual la magnitud y el tipo de cambios que ocurren en la alimentación al pasar de una dieta tradicional a una vegana.
+En conjunto, la visualización y esta narrativa permiten a los lectores explorar de manera clara cómo se comportan las dos canastas a lo largo del camino, evidenciando patrones de adaptación, oportunidades para mejorar la oferta de productos veganos y desafíos para quienes buscan mantener una dieta equilibrada y accesible. Así, Caperucita y el lobo no solo llegan a la casa de la abuela, sino que también nos muestran la historia de la alimentación vegana frente a la tradicional de manera entretenida y didáctica.
