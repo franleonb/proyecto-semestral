@@ -22,6 +22,7 @@ La visualización de datos muestra cómo los productos de la canasta tradicional
 
 **Observaciones sobre la base de datos:**  
 - Para “Extendidos” y “Disminuidos”, la cantidad representa el **número de productos originales que cambiaron**, no los productos resultantes finales.  
+- Cada producto fue contabilizado dependiendo de la categoría que se le fue asignada, de forma que esta variable fuera de carácter numérico.
 
 
 El gráfico permite identificar visualmente cuál es el tipo de cambio más frecuente y cómo se distribuyen los productos entre las diferentes categorías. Se observa que algunas categorías, como Mantenidos o Reemplazados, tienden a ser más numerosas, mientras que las categorías de Eliminados o Disminuidos son menos frecuentes, reflejando cambios puntuales pero significativos. Esta información puede ser útil para entender patrones de consumo, disponibilidad de productos y tendencias de la transición hacia una dieta vegana.
