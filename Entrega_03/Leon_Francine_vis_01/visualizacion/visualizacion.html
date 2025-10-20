@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <style>
+    #vis.vega-embed {
+      width: 100%;
+      display: flex;
+    }
+
+    #vis.vega-embed details,
+    #vis.vega-embed details summary {
+      position: relative;
+    }
+  </style>
+  <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/vega@5"></script>
+  <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/vega-lite@5.20.1"></script>
+  <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/vega-embed@6"></script>
+</head>
+<body>
+  <div id="vis"></div>
+  <script>
+    (function(vegaEmbed) {
+      var spec = {"config": {"view": {"continuousWidth": 300, "continuousHeight": 300}}, "data": {"name": "data-8d44977b4935ec43f8151fad2c747d7d"}, "mark": {"type": "bar"}, "encoding": {"color": {"field": "CATEGOR\u00cdA", "legend": {"title": "Categor\u00eda de cambio"}, "type": "nominal"}, "tooltip": [{"field": "CATEGOR\u00cdA", "type": "nominal"}, {"field": "CANTIDAD", "type": "quantitative"}, {"field": "Descripcion", "type": "nominal"}], "x": {"field": "CATEGOR\u00cdA", "title": "Tipo de cambio de producto", "type": "nominal"}, "y": {"field": "CANTIDAD", "title": "N\u00famero de productos", "type": "quantitative"}}, "height": 400, "params": [{"name": "param_3", "select": {"type": "interval", "encodings": ["x", "y"]}, "bind": "scales"}], "title": "Cambios en los productos: Canasta tradicional vs vegana", "width": 600, "$schema": "https://vega.github.io/schema/vega-lite/v5.20.1.json", "datasets": {"data-8d44977b4935ec43f8151fad2c747d7d": [{"CATEGOR\u00cdA": "MANTENIDOS", "CANTIDAD": 48, "Descripcion": "Productos que no cambian entre canastas"}, {"CATEGOR\u00cdA": "REEMPLAZADOS", "CANTIDAD": 14, "Descripcion": "Productos que se sustituyen por opci\u00f3n vegana"}, {"CATEGOR\u00cdA": "ELIMINADOS", "CANTIDAD": 12, "Descripcion": "Productos que desaparecen en la canasta vegana"}, {"CATEGOR\u00cdA": "AGREGADOS", "CANTIDAD": 8, "Descripcion": "Productos nuevos que aparecen en la canasta vegana"}, {"CATEGOR\u00cdA": "EXTENDIDOS", "CANTIDAD": 1, "Descripcion": "Un producto se divide en varios"}, {"CATEGOR\u00cdA": "DISMINUIDOS", "CANTIDAD": 4, "Descripcion": "Varios productos se consolidan en uno solo"}]}};
+      var embedOpt = {"mode": "vega-lite"};
+
+      function showError(el, error){
+          el.innerHTML = ('<div style="color:red;">'
+                          + '<p>JavaScript Error: ' + error.message + '</p>'
+                          + "<p>This usually means there's a typo in your chart specification. "
+                          + "See the javascript console for the full traceback.</p>"
+                          + '</div>');
+          throw error;
+      }
+      const el = document.getElementById('vis');
+      vegaEmbed("#vis", spec, embedOpt)
+        .catch(error => showError(el, error));
+    })(vegaEmbed);
+
+  </script>
+</body>
+</html>
