@@ -2,7 +2,7 @@
 
 ### Caperucita y el lobo: un viaje por la canasta vegana y tradicional
 
-![alttext](visualizacion/visualization.png)
+![alttext](assets/visualization.jpg)
 
 En un bosque lleno de senderos y sorpresas, Caperucita Roja llevaba su canasta vegana camino a la casa de la abuela, mientras que el lobo cargaba su canasta tradicional, llena de productos de origen animal. Cada paso de su camino se convirtió en una oportunidad para comparar las dos canastas y descubrir cómo se transformaría la alimentación si se adoptara una dieta vegana.
 
