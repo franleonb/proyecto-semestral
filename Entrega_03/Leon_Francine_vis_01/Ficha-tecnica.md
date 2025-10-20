@@ -25,9 +25,3 @@ La visualización de datos muestra cómo los productos de la canasta tradicional
 
 
 El gráfico permite identificar visualmente cuál es el tipo de cambio más frecuente y cómo se distribuyen los productos entre las diferentes categorías. Se observa que algunas categorías, como Mantenidos o Reemplazados, tienden a ser más numerosas, mientras que las categorías de Eliminados o Disminuidos son menos frecuentes, reflejando cambios puntuales pero significativos. Esta información puede ser útil para entender patrones de consumo, disponibilidad de productos y tendencias de la transición hacia una dieta vegana.
-
-Además, esta visualización responde preguntas clave sobre la transformación de la canasta:  
-- ¿Qué porcentaje de productos permanece sin cambios?  
-- ¿Cuántos productos requieren reemplazo o adaptación?  
-- ¿Existen productos nuevos que se incorporan exclusivamente en la canasta vegana?  
-- ¿Qué elementos se consolidan o se diversifican en el proceso de transición?
