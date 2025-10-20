@@ -1,6 +1,7 @@
 # Crónica de visualización
 
-![alt text](/visualization.jpg)
+
+
 
 La visualización de datos muestra cómo los productos de la canasta tradicional se transforman al pasar a la versión vegana. Para analizar estos cambios, se identificaron seis tipos de modificaciones que reflejan la dinámica de adaptación de los alimentos: Mantenidos, Reemplazados, Eliminados, Agregados, Extendidos y Disminuidos.
 
