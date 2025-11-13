@@ -19,7 +19,7 @@ Camila Aguilar representa al público objetivo principal. Es una joven profesion
 
 Por otro lado, Roberto Fernández encarna al usuario extremo. No pertenece al público vegetariano ni al digitalmente activo, pero su inclusión permite ampliar la mirada hacia otros actores involucrados en el sistema alimentario, como los pequeños comerciantes. Su perspectiva aporta una visión más pragmática y económica del fenómeno, ya que le interesa conocer los costos y la demanda, más que los valores éticos o nutricionales. Incluirlo en el análisis permite comprobar si la propuesta visual y comunicacional del proyecto es capaz de generar interés y comprensión incluso en audiencias menos familiarizadas con el tema.
 
-Para ver estos perfiles desde Miro haz click [aquí](https://miro.com/app/board/uXjVJr_Ko78=/?share_link_id=457309270336).
+Para ver estos perfiles y el mapa de viaje de cada usuario desde Miro, haz click [aquí](https://miro.com/app/board/uXjVJr_Ko78=/?share_link_id=457309270336).
 
 
 
