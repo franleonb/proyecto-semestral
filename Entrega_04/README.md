@@ -1,7 +1,7 @@
 # Documentación
 
 ## Actualización de hipótesis
-Actualización de la hipótesis y propuesta de trabajo grupal.
+Nuestra hipótesis sufrió cambios con respecto al foco. Inicialmente, habíamos planteado que mantener una dieta vegana sería más costoso que una tradicional. Pero al momento de recolectar los datos y crear la canasta básica vegana, nos dimos cuenta que el problema para una persona que quiera optar por este tipo de alimentación no sería el precio, sino la disponibilidad, accesibilidad y variedad de los productos veganos.
 
 ## Manual de identidad
 Referencia al proceso de creación y moodboard.
