@@ -1,0 +1,52 @@
+pip install altair
+
+# Importar bibliotecas necesarias
+import pandas as pd
+import altair as alt
+
+# Cargar el archivo CSV
+data = pd.read_csv('/Basedata_proyectro_ipc_grafica.csv')
+
+data.head(10)
+
+import pandas as pd
+import altair as alt
+
+# Cargar los datos
+datos = pd.read_csv('/Basedata_proyectro_ipc_grafica.csv')
+
+# Transformar el DataFrame
+datos_melted = pd.melt(datos, id_vars=['PRODUCTOS', 'Tipo de dieta'],
+                        var_name='Mes', value_name='Precio')
+
+# Agrupar por tipo de dieta y mes, y sumar los precios
+suma_precios_por_dieta_mes = datos_melted.groupby(['Mes', 'Tipo de dieta'])['Precio'].sum().reset_index()
+
+# Definir el orden de los meses según el orden en el archivo
+orden_meses = ['ene-24', 'feb-24', 'mar-24', 'abr-24', 'may-24', 'jun-24', 'jul-24', 'ago-24', 'sept-24', 'oct-24', 'nov-24', 'dic-24',
+               'ene-25', 'feb-25', 'mar-25', 'abr-25', 'may-25', 'oct-25']
+
+# Asegurarse de que los nombres de los meses en el DataFrame coincidan con el orden definido
+suma_precios_por_dieta_mes['Mes'] = pd.Categorical(
+    suma_precios_por_dieta_mes['Mes'],
+    categories=orden_meses,
+    ordered=True
+)
+
+# Crear el gráfico de líneas
+grafico = alt.Chart(suma_precios_por_dieta_mes).mark_line(point=True).encode(
+    x=alt.X('Mes:O', title='Mes', sort=orden_meses),  # Usar ordinal para el mes y especificar el orden cronológico
+    y=alt.Y('Precio:Q', title='Suma Total de Precios'),
+    color=alt.Color('Tipo de dieta:N', scale=alt.Scale(
+        domain=['Vegano', 'Tradicional'],
+        range=['#e84c3d', '#7eb3d5']
+    )),  # Especificar la escala de colores para cada tipo de dieta
+    tooltip=['Mes', 'Tipo de dieta', 'Precio']  # Añadir tooltips
+).properties(
+    title='Suma Total de Precios por Tipo de Dieta a lo Largo del Tiempo',
+    width=800,
+    height=400
+)
+
+# Mostrar el gráfico
+grafico
