@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <style>
+    #vis.vega-embed {
+      width: 100%;
+      display: flex;
+    }
+
+    #vis.vega-embed details,
+    #vis.vega-embed details summary {
+      position: relative;
+    }
+  </style>
+  <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/vega@5"></script>
+  <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/vega-lite@5.20.1"></script>
+  <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/vega-embed@6"></script>
+</head>
+<body>
+  <div id="vis"></div>
+  <script>
+    (function(vegaEmbed) {
+      var spec = {"config": {"view": {"continuousWidth": 300, "continuousHeight": 300}}, "data": {"name": "data-f82b1dbfa5678f1afa27435b5476ebfc"}, "mark": {"type": "bar"}, "encoding": {"color": {"field": "Dieta", "legend": {"labelExpr": "datum.label == 'Tradicional' ? 'Tradicional / Lobo' : 'Vegano / Caperucita'", "title": "Tipo de Dieta"}, "scale": {"domain": ["Tradicional", "Vegano"], "range": ["#7FB3D5", "#E74C3C"]}, "title": "Tipo de Dieta", "type": "nominal"}, "row": {"field": "Grupo", "header": {"labelAlign": "left", "labelAngle": 0, "labelOrient": "left", "labelPadding": 5, "title": "Comparativa de Productos (Tradicional vs. Vegano)", "titleOrient": "top"}, "type": "nominal"}, "tooltip": [{"field": "Grupo", "type": "nominal"}, {"field": "PRODUCTOS", "type": "nominal"}, {"field": "Dieta", "type": "nominal"}, {"field": "Precio", "type": "quantitative"}], "x": {"axis": {"format": "$,.0f"}, "field": "Precio", "title": "Precio (Oct 2025)", "type": "quantitative"}, "y": {"axis": null, "field": "Dieta", "sort": null, "title": null, "type": "ordinal"}}, "title": {"text": "\u00bfD\u00f3nde se esconde el costo?: Caperucita vs. Lobo", "anchor": "middle"}, "$schema": "https://vega.github.io/schema/vega-lite/v5.20.1.json", "datasets": {"data-f82b1dbfa5678f1afa27435b5476ebfc": [{"PRODUCTOS": "CARNE DE VACUNO", "Dieta": "Tradicional", "Precio": 8153.2, "Grupo": "Prote\u00edna (Carne vs Tofu)"}, {"PRODUCTOS": "GALLETAS", "Dieta": "Tradicional", "Precio": 606.1, "Grupo": "Galletas"}, {"PRODUCTOS": "HELADOS", "Dieta": "Tradicional", "Precio": 2779.7, "Grupo": "Helado"}, {"PRODUCTOS": "LECHE L\u00cdQUIDA", "Dieta": "Tradicional", "Precio": 1104.5, "Grupo": "Leche"}, {"PRODUCTOS": "MANJAR Y DULCES UNTABLES", "Dieta": "Tradicional", "Precio": 2655.8, "Grupo": "Manjar"}, {"PRODUCTOS": "MANTEQUILLA", "Dieta": "Tradicional", "Precio": 2001.0, "Grupo": "Mantequilla"}, {"PRODUCTOS": "PAN", "Dieta": "Tradicional", "Precio": 1901.8, "Grupo": "Pan"}, {"PRODUCTOS": "PASTAS", "Dieta": "Tradicional", "Precio": 825.9, "Grupo": "Pastas"}, {"PRODUCTOS": "QUESOS", "Dieta": "Tradicional", "Precio": 4736.8, "Grupo": "Queso"}, {"PRODUCTOS": "YOGURES Y PRODUCTOS SIMILARES", "Dieta": "Tradicional", "Precio": 809.2, "Grupo": "Yogurt"}, {"PRODUCTOS": "GALLETAS VEGANAS", "Dieta": "Vegano", "Precio": 1520.3, "Grupo": "Galletas"}, {"PRODUCTOS": "LECHE VEGANA", "Dieta": "Vegano", "Precio": 2678.0, "Grupo": "Leche"}, {"PRODUCTOS": "HELADO VEGANO", "Dieta": "Vegano", "Precio": 4655.8, "Grupo": "Helado"}, {"PRODUCTOS": "MANJAR VEGANO", "Dieta": "Vegano", "Precio": 2936.7, "Grupo": "Manjar"}, {"PRODUCTOS": "MANTEQUILLA DE ACEITE DE COCO", "Dieta": "Vegano", "Precio": 2690.0, "Grupo": "Mantequilla"}, {"PRODUCTOS": "QUESO VEGANOS", "Dieta": "Vegano", "Precio": 4256.7, "Grupo": "Queso"}, {"PRODUCTOS": "YOGURT VEGANO", "Dieta": "Vegano", "Precio": 1329.3, "Grupo": "Yogurt"}, {"PRODUCTOS": "TOFU", "Dieta": "Vegano", "Precio": 3232.7, "Grupo": "Prote\u00edna (Carne vs Tofu)"}, {"PRODUCTOS": "PAN VEGANO", "Dieta": "Vegano", "Precio": 2826.0, "Grupo": "Pan"}, {"PRODUCTOS": "PASTAS SIN HUEVO", "Dieta": "Vegano", "Precio": 1078.1, "Grupo": "Pastas"}]}};
+      var embedOpt = {"mode": "vega-lite"};
+
+      function showError(el, error){
+          el.innerHTML = ('<div style="color:red;">'
+                          + '<p>JavaScript Error: ' + error.message + '</p>'
+                          + "<p>This usually means there's a typo in your chart specification. "
+                          + "See the javascript console for the full traceback.</p>"
+                          + '</div>');
+          throw error;
+      }
+      const el = document.getElementById('vis');
+      vegaEmbed("#vis", spec, embedOpt)
+        .catch(error => showError(el, error));
+    })(vegaEmbed);
+
+  </script>
+</body>
+</html>
