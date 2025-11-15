@@ -9,7 +9,7 @@ breve justificación de cada una de sus secciones (color, tipografía y recursos
 
 ## Wireframe
 Link al prototipo.
-[Tablero de Miro]([https://miro.com/welcomeonboard/eXorLzVSdE1CZXVvWm5xOVJNWENkNFRrZ215eFBTbUlsZi9obmgxNCsyckxPN3ZCZjl3UUZYVTBXczJSNTA3WE5mY2Z3STNvQkQ0QmhOb3M4ZDF5Y29OS3JqUnRISGpERjUvd3BTREV2d0R6SVJ1eit0ckRWc1ZZcFlLWXltTmNQdGo1ZEV3bUdPQWRZUHQzSGl6V2NBPT0hdjE=?share_link_id=996519212418](https://miro.com/app/board/uXjVJqhkY4U=/?share_link_id=543169409024)
+[Tablero de Miro](https://miro.com/app/board/uXjVJqhkY4U=/?share_link_id=543169409024)
 
 Justificación de la estructura y propuesta de flujo.
 La estructura y propuesta de flujo del prototipo de la WebStory se fundamentan en una narrativa educativa y visual que busca informar sobre las diferencias entre la canasta básica tradicional y la vegana, comparando sus precios, disponibilidad y accesibilidad. El objetivo principal es presentar información de manera comprensible y atractiva para un público amplio, utilizando recursos visuales y narrativos que faciliten la lectura y comprensión. Para lograrlo, se adopta como eje simbólico el cuento de *Caperucita Roja*.
