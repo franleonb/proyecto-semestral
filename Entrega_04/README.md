@@ -4,7 +4,7 @@
 Nuestra hipótesis sufrió cambios con respecto al foco. Inicialmente, habíamos planteado que mantener una dieta vegana sería **más costoso que una tradicional**. Pero al momento de recolectar los datos y crear la canasta básica vegana, nos dimos cuenta que el problema para una persona que quiera optar por este tipo de alimentación no sería el precio, sino la **disponibilidad**, **accesibilidad** y **variedad** de los productos veganos.
 
 ## Manual de identidad
-## Proceso de creación y moodboard
+### Proceso de creación y moodboard
 Nuestro proceso creativo para "Caperucita Roja y las Dos Canastas" partió de la necesidad de contrastar dos tipos de alimentación de forma accesible y atractiva. Nos inspiramos en la estética de cuentos infantiles clásicos, reinterpretando elementos tradicionales del cuento de Caperucita Roja para crear una narrativa visual que compare la canasta básica tradicional con una alternativa vegana.
 
 El moodboard reunió ilustraciones de cuentos infantiles con estilo simple y contornos definidos, fotografías de alimentos frescos tanto tradicionales como vegetales. Buscamos referencias de bosques estilizados y personajes icónicos representados de forma minimalista, manteniendo siempre la esencia lúdica y educativa del proyecto.Justificación de secciones.
