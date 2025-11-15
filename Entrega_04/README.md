@@ -4,9 +4,12 @@
 Nuestra hipótesis sufrió cambios con respecto al foco. Inicialmente, habíamos planteado que mantener una dieta vegana sería **más costoso que una tradicional**. Pero al momento de recolectar los datos y crear la canasta básica vegana, nos dimos cuenta que el problema para una persona que quiera optar por este tipo de alimentación no sería el precio, sino la **disponibilidad**, **accesibilidad** y **variedad** de los productos veganos.
 
 ## Manual de identidad
-Referencia al proceso de creación y moodboard.
-breve justificación de cada una de sus secciones (color, tipografía y recursos gráficos)
-
+## Proceso de creación y moodboard
+Nuestro proceso creativo para "Caperucita Roja y las Dos Canastas" partió de la necesidad de contrastar dos tipos de alimentación de forma accesible y atractiva. Nos inspiramos en la estética de cuentos infantiles clásicos, reinterpretando elementos tradicionales del cuento de Caperucita Roja para crear una narrativa visual que compare la canasta básica tradicional con una alternativa vegana.
+El moodboard reunió ilustraciones de cuentos infantiles con estilo simple y contornos definidos, fotografías de alimentos frescos tanto tradicionales como vegetales. Buscamos referencias de bosques estilizados y personajes icónicos representados de forma minimalista, manteniendo siempre la esencia lúdica y educativa del proyecto.Justificación de secciones
+Color: La paleta cromática seleccionada responde directamente a la narrativa. El verde (#88d09e) como fondo representa el bosque, escenario principal de nuestra historia. El rojo intenso (#cd3e1c) identifica a Caperucita (dieta vegana), mientras que el azul (#7eb3d5) representa al Lobo (dieta tradicional), creando un contraste visual que refuerza la dualidad de opciones alimentarias. Los colores complementarios (#ecbebc y #737373) aportan equilibrio y permiten destacar elementos específicos de cada personaje en las visualizaciones.
+Tipografía: La selección tipográfica refuerza la atmósfera de cuento infantil mientras garantiza la legibilidad. Caveat para títulos aporta calidez con su apariencia manuscrita; Fredoka para subtítulos ofrece un carácter amigable y redondeado propio de literatura infantil; Open Sans para el cuerpo de texto asegura claridad en la información; y Abril Fatface para botones destaca elementos interactivos con elegancia, invitando a la exploración.
+Recursos gráficos: Los elementos visuales como las canastas interactivas, tablas-botones y el estilo de ilustración simplificado con contornos definidos facilitan la comprensión de datos complejos. Las fotografías seleccionadas mantienen coherencia estética con las ilustraciones, creando una experiencia visual unificada que guía al usuario a través del "bosque de decisiones alimentarias" de manera intuitiva y atractiva.
 ## Wireframe
 Link al prototipo.
 [Tablero de Miro](https://miro.com/app/board/uXjVJqhkY4U=/?share_link_id=543169409024)
