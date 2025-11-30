@@ -14,13 +14,13 @@
 </head>
 
 <body>
-
     <div id="encabezado">
         <h1>Caperucita Roja y las Dos Canastas</h1>
-        <p>Un reportaje sobre</p>
+        <p>Un reportaje sobre el veganismo y las canastas</p>
     </div>
 
     <div id="visualizacion">
+        <img src="file:///C:/Users/Hewlett%20Packard/OneDrive/Escritorio/proyecto-semestral/Entrega_05/portada.png" alt="Imagen de veganismo">
         
     </div>
 
@@ -28,6 +28,26 @@
         <p>La historia comienza aquí...</p>
     </div>
 
+     <script>
+        const leafCount = 30;
+
+        for (let i = 0; i < leafCount; i++) {
+            const leaf = document.createElement("div");
+            leaf.classList.add("leaf");
+
+            leaf.style.left = Math.random() * 100 + "vw";
+
+            const size = 20 + Math.random() * 40;
+            leaf.style.width = size + "px";
+            leaf.style.height = size + "px";
+
+            leaf.style.animationDuration = 5 + Math.random() * 6 + "s";
+
+            leaf.style.animationDelay = Math.random() * 5 + "s";
+
+            document.body.appendChild(leaf);
+        }
+    </script>
     
     <script src="script.js"></script>
     

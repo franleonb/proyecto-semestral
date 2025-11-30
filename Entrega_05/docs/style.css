@@ -1,39 +1,62 @@
-/* Estilo general para todo el cuerpo de la página */
 body {
-    font-family: 'Georgia', serif; /* Una fuente clásica para cuentos */
-    background-color: #88d09e; /* Un color de fondo tipo pergamino */
-    color: #3d3d3d; /* Un color de texto oscuro, pero no negro puro */
+    font-family: 'Georgia', serif;
+    background-color: #88d09e;
+    color: #3d3d3d;
     margin: 0;
     padding: 20px;
-    display: flex;
+    display: block;
     flex-direction: column;
-    align-items: center; /* Centramos el contenido */
+    align-items: center;
 }
 
-/* Estilo para el contenedor del título */
 #encabezado {
     text-align: center;
     margin-bottom: 40px;
 }
 
 #encabezado h1 {
-    color: #c0392b; /* Un rojo caperucita */
+    color: #c0392b;
 }
 
-/* Estilo para el contenedor de la visualización (nuestro escenario) */
 #visualizacion {
-    width: 800px;
-    height: 500px;
-    background-color: #ffffff; /* Fondo blanco para que el gráfico destaque */
+    width: 50%;
+    height: auto;
+    display: flex;
+    margin: auto;
+    background-color: #ffffff;
     border: 1px solid #cccccc;
-    box-shadow: 0 4px 8px rgba(0,0,0,0.1); /* Una pequeña sombra para darle profundidad */
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
 }
 
-/* Estilo para el texto que contará la historia */
 #narrativa {
     margin-top: 40px;
-    max-width: 800px; /* Mismo ancho que el gráfico para mantener la alineación */
-    text-align: justify;
+    max-width: 800px; 
+    text-align: end;
     font-size: 1.1em;
     line-height: 1.6;
+}
+
+.leaf {
+    position: fixed;
+    top: -50px;
+    width: 40px;
+    height: 40px;
+    background-image: url("https://png.pngtree.com/png-vector/20230313/ourmid/pngtree-cartoon-leaf-illustration-vector-png-image_6644591.png");
+    background-size: contain;
+    background-repeat: no-repeat;
+    pointer-events: none;
+    animation: fall 6s linear infinite;
+    z-index: -1;
+}
+
+@keyframes fall {
+    0% {
+        transform: translateY(0) rotate(0deg);
+    }
+    100% {
+        transform: translateY(110vh) rotate(360deg);
+    }
 }
