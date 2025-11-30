@@ -1,0 +1,39 @@
+/* Estilo general para todo el cuerpo de la página */
+body {
+    font-family: 'Georgia', serif; /* Una fuente clásica para cuentos */
+    background-color: #88d09e; /* Un color de fondo tipo pergamino */
+    color: #3d3d3d; /* Un color de texto oscuro, pero no negro puro */
+    margin: 0;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center; /* Centramos el contenido */
+}
+
+/* Estilo para el contenedor del título */
+#encabezado {
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+#encabezado h1 {
+    color: #c0392b; /* Un rojo caperucita */
+}
+
+/* Estilo para el contenedor de la visualización (nuestro escenario) */
+#visualizacion {
+    width: 800px;
+    height: 500px;
+    background-color: #ffffff; /* Fondo blanco para que el gráfico destaque */
+    border: 1px solid #cccccc;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1); /* Una pequeña sombra para darle profundidad */
+}
+
+/* Estilo para el texto que contará la historia */
+#narrativa {
+    margin-top: 40px;
+    max-width: 800px; /* Mismo ancho que el gráfico para mantener la alineación */
+    text-align: justify;
+    font-size: 1.1em;
+    line-height: 1.6;
+}
