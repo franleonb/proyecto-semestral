@@ -26,20 +26,6 @@ body {
 
 }
 
-#personajes {
-    display: flex;
-    justify-content: center; /* centra horizontalmente */
-    gap: 20px;               /* separación entre fotos */
-    margin-top: 20px;
-}
-
-#perfiles {
-    width: 30%;   /* ajusta el tamaño como quieras */
-    max-width: 300px;
-    border-radius: 10px; /* opcional: bordes redondeados */
-}
-
-
 #visualizacion {
     width: 50%;
     height: auto;
@@ -79,4 +65,17 @@ body {
     100% {
         transform: translateY(110vh) rotate(360deg);
     }
+}
+
+#personajes {
+    display: flex;
+    justify-content: center; /* centra horizontalmente */
+    gap: 200px;               /* separación entre fotos */
+    margin-top: 20px;
+}
+
+#perfiles {
+    width: 30%;   /* ajusta el tamaño como quieras */
+    max-width: 300px;
+    border-radius: 10px; /* opcional: bordes redondeados */
 }
