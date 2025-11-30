@@ -19,8 +19,8 @@ body {
 }
 
 #subtitulo {
-    font-size: 24px;   /* tamaño de la letra */
-    font-weight: bold; /* negrita */
+    font-size: 24px;
+    font-weight: bold;
     text-align: center;
     color:#c0392b
 
@@ -70,12 +70,11 @@ body {
 #personajes {
     display: flex;
     justify-content: center;
-    align-items: flex-start;  /* mejor para alinear los bloques */
+    align-items: flex-start;
     gap: 100px;               
     margin-top: 0px;
 }
 
-/* imagen individual */
 .perfiles {
     width: 300px;
     height: auto;
@@ -83,14 +82,12 @@ body {
     border-radius: 50px;
 }
 
-/* contenedor de cada personaje */
 .character {
     display: flex;
     flex-direction: column;
     align-items: center;
 }
 
-/* bloque de texto debajo de cada foto */
 .bloque-texto {
     background-color: #c0392b;
     color: white;
