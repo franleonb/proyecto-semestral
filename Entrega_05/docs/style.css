@@ -146,14 +146,30 @@ body {
   font-weight: bold;
 }
 
-.grafico-container {
-    width: 100%;
+.grafico-con-texto {
     display: flex;
     justify-content: center;
-    margin: 20px 0; /* espacio arriba y abajo */
+    align-items: flex-start;
+    gap: 20px; /* espacio entre gráfico y texto */
+    margin: 20px 0;
 }
 
-.grafico-container iframe {
-    max-width: 90%;
+.grafico-con-texto.reverse {
+    flex-direction: row-reverse; /* invierte orden del gráfico y el texto */
+}
+
+.grafico-con-texto iframe {
+    max-width: 50%;
     height: 400px;
 }
+
+.texto-grafico {
+    max-width: 40%;
+    background-color: #c0392b; /* bloque de color rojo */
+    color: white;
+    padding: 15px;
+    border-radius: 10px;
+    font-weight: bold;
+    line-height: 1.5;
+}
+

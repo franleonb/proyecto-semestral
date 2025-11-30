@@ -1,5 +1,5 @@
 document.querySelectorAll('*').forEach(el => {
-    el.style.cursor = "url('cursor-final.png'), auto";
+    el.style.cursor = "url('cursor-canasta.png'), auto";
 });
 
 const leafCount = 60;
