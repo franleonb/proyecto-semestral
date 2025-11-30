@@ -16,10 +16,11 @@ body {
 
 #encabezado h1 {
     color: #c0392b;
+    font-size: 48px;
 }
 
 #subtitulo {
-    font-size: 24px;
+    font-size: 30px;
     font-weight: bold;
     text-align: center;
     color:#c0392b
@@ -96,7 +97,7 @@ body {
     max-width: 400px; 
     margin-top: 15px;
     border-radius: 20px;
-    text-align: center;
+    text-align: left;
     font-weight: bold;
 }
 
