@@ -18,6 +18,28 @@ body {
     color: #c0392b;
 }
 
+#subtitulo {
+    font-size: 24px;   /* tamaño de la letra */
+    font-weight: bold; /* negrita */
+    text-align: center;
+    color:#c0392b
+
+}
+
+#personajes {
+    display: flex;
+    justify-content: center; /* centra horizontalmente */
+    gap: 20px;               /* separación entre fotos */
+    margin-top: 20px;
+}
+
+#perfiles {
+    width: 30%;   /* ajusta el tamaño como quieras */
+    max-width: 300px;
+    border-radius: 10px; /* opcional: bordes redondeados */
+}
+
+
 #visualizacion {
     width: 50%;
     height: auto;
@@ -32,9 +54,7 @@ body {
 }
 
 #narrativa {
-    margin-top: 40px;
-    max-width: 800px; 
-    text-align: end;
+    text-align: center;
     font-size: 1.1em;
     line-height: 1.6;
 }
