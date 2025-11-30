@@ -7,6 +7,7 @@ body {
     display: block;
     flex-direction: column;
     align-items: center;
+    cursor: url("cursor-final.png"), auto;
 }
 
 #encabezado {
@@ -42,30 +43,37 @@ body {
 
 #narrativa {
     text-align: center;
-    font-size: 1.1em;
+    font-size: 25px;
     line-height: 1.6;
+    font-style: italic;
+    font-weight: bold;
+}
+
+#bajada {
+    text-align: center;
+    font-size: 20px;
+    line-height: 1.6;
+    font-weight: bold;
 }
 
 .leaf {
     position: fixed;
-    top: -50px;
+    top: -100px;
     width: 40px;
     height: 40px;
     background-image: url("https://png.pngtree.com/png-vector/20230313/ourmid/pngtree-cartoon-leaf-illustration-vector-png-image_6644591.png");
     background-size: contain;
     background-repeat: no-repeat;
     pointer-events: none;
-    animation: fall 6s linear infinite;
+    animation-name: fallLeaves;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
     z-index: -1;
 }
 
-@keyframes fall {
-    0% {
-        transform: translateY(0) rotate(0deg);
-    }
-    100% {
-        transform: translateY(110vh) rotate(360deg);
-    }
+@keyframes fallLeaves {
+    from { transform: translateY(0); }
+    to   { transform: translateY(100vh); }
 }
 
 #personajes {
@@ -136,4 +144,16 @@ body {
   width: 200px; /* mismo ancho que la imagen */
   text-align: center;
   font-weight: bold;
+}
+
+.grafico-container {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    margin: 20px 0; /* espacio arriba y abajo */
+}
+
+.grafico-container iframe {
+    max-width: 90%;
+    height: 400px;
 }
