@@ -1,0 +1,80 @@
+/* Estilo general para todo el cuerpo de la página */
+body {
+    font-family: 'Georgia', serif; /* Una fuente clásica para cuentos */
+    background-color: #88d09e; /* Un color de fondo tipo pergamino */
+    color: #3d3d3d; /* Un color de texto oscuro, pero no negro puro */
+    margin: 0;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center; /* Centramos el contenido */
+}
+
+/* Estilo para el contenedor del título */
+#encabezado {
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+#encabezado h1 {
+    color: #c0392b; /* Un rojo caperucita */
+}
+
+/* Estilo para el contenedor de la visualización (nuestro escenario) */
+#visualizacion {
+    width: 800px;
+    height: 500px;
+    background-color: #ffffff; /* Fondo blanco para que el gráfico destaque */
+    border: 1px solid #cccccc;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1); /* Una pequeña sombra para darle profundidad */
+}
+
+/* Estilo para el texto que contará la historia */
+#narrativa {
+    margin-top: 40px;
+    max-width: 800px; /* Mismo ancho que el gráfico para mantener la alineación */
+    text-align: justify;
+    font-size: 1.1em;
+    line-height: 1.6;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    background-color: #d8f6d1; /* verde clarito */
+    overflow: hidden;
+    font-family: Arial, sans-serif;
+}
+
+/* Contenedor del fondo animado */
+.fondo-hojas {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    pointer-events: none;
+    overflow: hidden;
+    z-index: -1;
+}
+
+.hoja {
+    position: absolute;
+    width: 40px;
+    height: 40px;
+    background-image: url("https://www.google.com/url?sa=i&url=https%3A%2F%2Fes.pngtree.com%2Ffree-png-vectors%2Fhoja-de-dibujos-animados&psig=AOvVaw122nkt518fgR0Hh1LT76A1&ust=1764552815852000&source=images&cd=vfe&opi=89978449&ved=0CBUQjRxqFwoTCMjctc7dmJEDFQAAAAAdAAAAABAL");
+    background-size: cover;
+    opacity: 0.8;
+    animation: caer 8s linear infinite;
+}
+
+/* Animación */
+@keyframes caer {
+    0% {
+        transform: translateY(-100px) rotate(0deg);
+    }
+    100% {
+        transform: translateY(120vh) rotate(360deg);
+    }
+}
+
