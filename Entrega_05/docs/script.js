@@ -1,35 +1,51 @@
-document.querySelectorAll('*').forEach(el => {
+document.addEventListener("DOMContentLoaded", () => {
+ document.querySelectorAll('*').forEach(el => {
     el.style.cursor = "url('cursor-canasta.png'), auto";
 });
 
-const leafCount = 60;
+    const leafCount = 60;
+    for (let i = 0; i < leafCount; i++) {
+        const leaf = document.createElement("div");
+        leaf.classList.add("leaf");
+        leaf.style.left = Math.random() * 100 + "vw";
 
-for (let i = 0; i < leafCount; i++) {
-    const leaf = document.createElement("div");
-    leaf.classList.add("leaf");
+        const size = 20 + Math.random() * 40;
+        leaf.style.width = size + "px";
+        leaf.style.height = size + "px";
 
-    leaf.style.left = Math.random() * 100 + "vw";
+        leaf.style.animationDuration = (5 + Math.random() * 6) + "s";
+        leaf.style.animationDelay = Math.random() * 5 + "s";
 
-    const size = 20 + Math.random() * 40;
-    leaf.style.width = size + "px";
-    leaf.style.height = size + "px";
-
-    leaf.style.animationDuration = (5 + Math.random() * 6) + "s";
-    leaf.style.animationDelay = Math.random() * 5 + "s";
-
-    document.body.appendChild(leaf);
-}
-
-const canastas = document.querySelectorAll('.canasta');
-
-canastas.forEach(canasta => {
-  canasta.addEventListener('click', () => {
-    const info = canasta.querySelector('.info');
-    if (info.style.display === 'block') {
-      info.style.display = 'none';
-    } else {
-      info.style.display = 'block';
+        document.body.appendChild(leaf);
     }
-  });
-});
 
+    const canastas = document.querySelectorAll('.canasta');
+    canastas.forEach(canasta => {
+      canasta.addEventListener('click', () => {
+        const info = canasta.querySelector('.info');
+        info.style.display = info.style.display === 'block' ? 'none' : 'block';
+      });
+    });
+
+    const slides = document.querySelectorAll('.slide');
+    const prev = document.querySelector('.prev');
+    const next = document.querySelector('.next');
+    let index = 0;
+
+    function showSlide(i) {
+        slides.forEach(slide => slide.classList.remove('active'));
+        slides[i].classList.add('active');
+    }
+
+    showSlide(index);
+
+    prev.addEventListener('click', () => {
+        index = (index - 1 + slides.length) % slides.length;
+        showSlide(index);
+    });
+
+    next.addEventListener('click', () => {
+        index = (index + 1) % slides.length;
+        showSlide(index);
+    });
+});

@@ -25,7 +25,13 @@ body {
     font-weight: bold;
     text-align: center;
     color:#c0392b
+}
 
+#categoria {
+    font-size: 25px;
+    font-weight: bold;
+    text-align: left;
+    color:#c0392b
 }
 
 #visualizacion {
@@ -171,5 +177,48 @@ body {
     border-radius: 10px;
     font-weight: bold;
     line-height: 1.5;
+}
+
+.carrusel {
+  position: relative;
+  max-width: 600px; /* ancho del carrusel */
+  margin: 20px auto;
+  overflow: hidden;
+  border-radius: 10px;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.2);
+}
+
+.slides {
+  display: flex;
+  transition: transform 0.5s ease-in-out;
+}
+
+.slide {
+  min-width: 100%;
+  display: none;
+}
+
+.slide.active {
+  display: block;
+}
+
+button.prev, button.next {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  background-color: rgba(0,0,0,0.5);
+  color: white;
+  border: none;
+  padding: 10px;
+  cursor: pointer;
+  font-size: 24px;
+  border-radius: 50%;
+}
+
+button.prev { left: 10px; }
+button.next { right: 10px; }
+
+button.prev:hover, button.next:hover {
+  background-color: rgba(0,0,0,0.8);
 }
 
