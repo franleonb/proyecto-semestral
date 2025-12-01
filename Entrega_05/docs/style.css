@@ -30,7 +30,7 @@ body {
 #categoria {
     font-size: 25px;
     font-weight: bold;
-    text-align: left;
+    text-align: center;
     color:#c0392b
 }
 
@@ -65,22 +65,37 @@ body {
 .leaf {
     position: fixed;
     top: -100px;
-    width: 40px;
-    height: 40px;
     background-image: url("https://png.pngtree.com/png-vector/20230313/ourmid/pngtree-cartoon-leaf-illustration-vector-png-image_6644591.png");
     background-size: contain;
     background-repeat: no-repeat;
     pointer-events: none;
-    animation-name: fallLeaves;
-    animation-timing-function: linear;
-    animation-iteration-count: infinite;
+    opacity: 0.85;
     z-index: -1;
+
+    /* Una sola animación combinada */
+    animation: leafFall infinite linear;
 }
 
-@keyframes fallLeaves {
-    from { transform: translateY(0); }
-    to   { transform: translateY(100vh); }
+/* Animación combinada */
+@keyframes leafFall {
+    0% {
+        transform: translateX(0) translateY(0) rotate(0deg);
+    }
+    25% {
+        transform: translateX(20px) translateY(25vh) rotate(80deg);
+    }
+    50% {
+        transform: translateX(-20px) translateY(50vh) rotate(160deg);
+    }
+    75% {
+        transform: translateX(15px) translateY(75vh) rotate(240deg);
+    }
+    100% {
+        transform: translateX(0) translateY(110vh) rotate(360deg);
+    }
 }
+
+
 
 #personajes {
     display: flex;
@@ -129,17 +144,16 @@ body {
 }
 
 .canasta-img {
-  width: 200px;  /* ajusta el tamaño de las imágenes */
+  width: 200px;
   height: auto;
   border-radius: 15px;
   transition: transform 0.3s;
 }
 
 .canasta:hover .canasta-img {
-  transform: scale(1.05); /* efecto hover */
+  transform: scale(1.05);
 }
 
-/* bloque de info inicialmente oculto */
 .info {
   display: none;
   background-color: #c0392b;
@@ -147,7 +161,7 @@ body {
   padding: 15px;
   border-radius: 10px;
   margin-top: 10px;
-  width: 200px; /* mismo ancho que la imagen */
+  width: 200px;
   text-align: center;
   font-weight: bold;
 }
@@ -156,12 +170,8 @@ body {
     display: flex;
     justify-content: center;
     align-items: flex-start;
-    gap: 20px; /* espacio entre gráfico y texto */
+    gap: 20px;
     margin: 20px 0;
-}
-
-.grafico-con-texto.reverse {
-    flex-direction: row-reverse; /* invierte orden del gráfico y el texto */
 }
 
 .grafico-con-texto iframe {
@@ -171,7 +181,7 @@ body {
 
 .texto-grafico {
     max-width: 40%;
-    background-color: #c0392b; /* bloque de color rojo */
+    background-color: #c0392b;
     color: white;
     padding: 15px;
     border-radius: 10px;
@@ -179,24 +189,21 @@ body {
     line-height: 1.5;
 }
 
-/* Contenedor que agrupa los dos carruseles */
 .carruseles-container {
     display: flex;
     justify-content: center;
-    gap: 40px;         /* separación entre los carruseles */
+    gap: 40px;
     margin-top: 30px;
 }
 
-/* Tamaño general del carrusel */
 .carrusel {
-    width: 450px;      /* AJUSTA AQUÍ si quieres aún más grande (500px, 600px…) */
-    height: 350px;     /* alto total del carrusel */
+    width: 450px;
+    height: 350px;
     position: relative;
     overflow: hidden;
     border-radius: 15px;
 }
 
-/* Slides internas */
 .carrusel .slide {
     display: none;
     width: 100%;
@@ -208,13 +215,12 @@ body {
 }
 
 .carrusel .slide img {
-    width: 100%;     /* La imagen ocupa todo el carrusel */
+    width: 100%;
     height: 100%;
-    object-fit: cover; /* Recorte estético */
+    object-fit: cover;
     border-radius: 15px;
 }
 
-/* Botones */
 .carrusel button.prev,
 .carrusel button.next {
     position: absolute;

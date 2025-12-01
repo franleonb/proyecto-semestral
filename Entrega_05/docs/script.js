@@ -14,7 +14,7 @@ document.addEventListener("DOMContentLoaded", () => {
         leaf.style.width = size + "px";
         leaf.style.height = size + "px";
 
-        leaf.style.animationDuration = (5 + Math.random() * 6) + "s";
+        leaf.style.animationDuration = (6 + Math.random() * 6) + "s";
         leaf.style.animationDelay = Math.random() * 5 + "s";
 
         document.body.appendChild(leaf);
@@ -28,7 +28,6 @@ document.addEventListener("DOMContentLoaded", () => {
         });
     });
 
-    // CARRUSELES
     document.querySelectorAll('.carrusel').forEach(carrusel => {
         const slides = carrusel.querySelectorAll('.slide');
         const prev = carrusel.querySelector('.prev');
