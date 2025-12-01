@@ -72,11 +72,9 @@ body {
     opacity: 0.85;
     z-index: -1;
 
-    /* Una sola animación combinada */
     animation: leafFall infinite linear;
 }
 
-/* Animación combinada */
 @keyframes leafFall {
     0% {
         transform: translateX(0) translateY(0) rotate(0deg);
@@ -94,8 +92,6 @@ body {
         transform: translateX(0) translateY(110vh) rotate(360deg);
     }
 }
-
-
 
 #personajes {
     display: flex;
@@ -242,6 +238,3 @@ body {
 .carrusel button.next {
     right: 10px;
 }
-
-
-
