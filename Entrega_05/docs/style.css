@@ -179,46 +179,63 @@ body {
     line-height: 1.5;
 }
 
+/* Contenedor que agrupa los dos carruseles */
+.carruseles-container {
+    display: flex;
+    justify-content: center;
+    gap: 40px;         /* separación entre los carruseles */
+    margin-top: 30px;
+}
+
+/* Tamaño general del carrusel */
 .carrusel {
-  position: relative;
-  max-width: 600px; /* ancho del carrusel */
-  margin: 20px auto;
-  overflow: hidden;
-  border-radius: 10px;
-  box-shadow: 0 4px 10px rgba(0,0,0,0.2);
+    width: 450px;      /* AJUSTA AQUÍ si quieres aún más grande (500px, 600px…) */
+    height: 350px;     /* alto total del carrusel */
+    position: relative;
+    overflow: hidden;
+    border-radius: 15px;
 }
 
-.slides {
-  display: flex;
-  transition: transform 0.5s ease-in-out;
+/* Slides internas */
+.carrusel .slide {
+    display: none;
+    width: 100%;
+    height: 100%;
 }
 
-.slide {
-  min-width: 100%;
-  display: none;
+.carrusel .slide.active {
+    display: block;
 }
 
-.slide.active {
-  display: block;
+.carrusel .slide img {
+    width: 100%;     /* La imagen ocupa todo el carrusel */
+    height: 100%;
+    object-fit: cover; /* Recorte estético */
+    border-radius: 15px;
 }
 
-button.prev, button.next {
-  position: absolute;
-  top: 50%;
-  transform: translateY(-50%);
-  background-color: rgba(0,0,0,0.5);
-  color: white;
-  border: none;
-  padding: 10px;
-  cursor: pointer;
-  font-size: 24px;
-  border-radius: 50%;
+/* Botones */
+.carrusel button.prev,
+.carrusel button.next {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    background: rgba(0, 0, 0, 0.5);
+    border: none;
+    color: white;
+    padding: 10px 15px;
+    cursor: pointer;
+    font-size: 20px;
+    border-radius: 8px;
 }
 
-button.prev { left: 10px; }
-button.next { right: 10px; }
-
-button.prev:hover, button.next:hover {
-  background-color: rgba(0,0,0,0.8);
+.carrusel button.prev {
+    left: 10px;
 }
+
+.carrusel button.next {
+    right: 10px;
+}
+
+
 

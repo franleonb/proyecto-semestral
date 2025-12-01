@@ -1,7 +1,8 @@
 document.addEventListener("DOMContentLoaded", () => {
- document.querySelectorAll('*').forEach(el => {
-    el.style.cursor = "url('cursor-canasta.png'), auto";
-});
+
+    document.querySelectorAll('*').forEach(el => {
+        el.style.cursor = "url('cursor-canasta.png'), auto";
+    });
 
     const leafCount = 60;
     for (let i = 0; i < leafCount; i++) {
@@ -21,31 +22,35 @@ document.addEventListener("DOMContentLoaded", () => {
 
     const canastas = document.querySelectorAll('.canasta');
     canastas.forEach(canasta => {
-      canasta.addEventListener('click', () => {
-        const info = canasta.querySelector('.info');
-        info.style.display = info.style.display === 'block' ? 'none' : 'block';
-      });
+        canasta.addEventListener('click', () => {
+            const info = canasta.querySelector('.info');
+            info.style.display = info.style.display === 'block' ? 'none' : 'block';
+        });
     });
 
-    const slides = document.querySelectorAll('.slide');
-    const prev = document.querySelector('.prev');
-    const next = document.querySelector('.next');
-    let index = 0;
+    // CARRUSELES
+    document.querySelectorAll('.carrusel').forEach(carrusel => {
+        const slides = carrusel.querySelectorAll('.slide');
+        const prev = carrusel.querySelector('.prev');
+        const next = carrusel.querySelector('.next');
+        let index = 0;
 
-    function showSlide(i) {
-        slides.forEach(slide => slide.classList.remove('active'));
-        slides[i].classList.add('active');
-    }
+        function showSlide(i) {
+            slides.forEach(s => s.classList.remove('active'));
+            slides[i].classList.add('active');
+        }
 
-    showSlide(index);
-
-    prev.addEventListener('click', () => {
-        index = (index - 1 + slides.length) % slides.length;
         showSlide(index);
+
+        prev.addEventListener('click', () => {
+            index = (index - 1 + slides.length) % slides.length;
+            showSlide(index);
+        });
+
+        next.addEventListener('click', () => {
+            index = (index + 1) % slides.length;
+            showSlide(index);
+        });
     });
 
-    next.addEventListener('click', () => {
-        index = (index + 1) % slides.length;
-        showSlide(index);
-    });
 });
