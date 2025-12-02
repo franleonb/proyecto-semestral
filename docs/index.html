@@ -9,6 +9,9 @@
     
     <link rel="stylesheet" href="style.css">
 
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/vega@5"></script>
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/vega-lite@5.20.1"></script>
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/vega-embed@6"></script>
     
     <script src="https://d3js.org/d3.v7.min.js"></script>
 </head>
@@ -26,8 +29,8 @@
 
     <div id="narrativa">
         <p>La historia comienza aquí...</p>
-    </div>
-    <div>
+        </div>
+    <div class="fondo-verde">
         <p>NARRACIÓN DEL CUENTO: Lorem ipsum dolor sit amet consectetur adipiscing elit etiam mollis, congue vel condimentum varius eleifend platea suscipit aptent habitasse, euismod porta penatibus bibendum sem tempor enim ante. Gravida malesuada penatibus habitasse vulputate vel lectus pulvinar, lacinia interdum tristique cras magnis potenti, duis sagittis pharetra fusce venenatis aenean. Sem habitasse dictumst vitae auctor feugiat luctus ullamcorper mi sociis nunc potenti, sed montes neque dignissim magna id scelerisque at bibendum orci cum, blandit nullam eget quisque a mollis accumsan tempus dapibus purus.</p>
         <p>CONTEXTO E INFO DEL REPORTAJE: Lorem ipsum dolor sit amet consectetur adipiscing elit etiam mollis, congue vel condimentum varius eleifend platea suscipit aptent habitasse, euismod porta penatibus bibendum sem tempor enim ante. Gravida malesuada penatibus habitasse vulputate vel lectus pulvinar, lacinia interdum tristique cras magnis potenti, duis sagittis pharetra fusce venenatis aenean. Sem habitasse dictumst vitae auctor feugiat luctus ullamcorper mi sociis nunc potenti, sed montes neque dignissim magna id scelerisque at bibendum orci cum, blandit nullam eget quisque a mollis accumsan tempus dapibus purus.</p>
     </div>
@@ -61,9 +64,7 @@
     </div>
 </div>
 
-<div>​<p>​
-​
-</p>
+<div>​<p>​</p>
 </div>
 
 <div id="visualizacion">
@@ -101,12 +102,14 @@
 
 </div>
 
-<div>
+<div class="fondo-verde">
     <p>Lorem ipsum dolor sit amet consectetur adipiscing, elit suscipit sed laoreet magna sociis, habitasse luctus primis eleifend purus. Nunc mollis at accumsan dapibus feugiat viverra euismod venenatis tortor congue, ut egestas sociosqu vulputate aptent commodo ad leo a tellus, et est ultrices facilisi aliquet bibendum platea facilisis mauris. Ridiculus rhoncus a vestibulum varius potenti sociis ante phasellus velit eu, est mus cum viverra neque nisi auctor felis nascetur.</p>
     <p>Magnis ridiculus penatibus posuere viverra senectus quis montes, lacus commodo primis suspendisse eleifend accumsan, conubia taciti at a condimentum ligula. Habitasse conubia placerat tellus ultrices erat at congue arcu felis donec eget eu blandit habitant, diam lectus lacinia torquent rhoncus dis scelerisque nullam quisque sagittis per nec. Pharetra dictum torquent diam sem habitasse lobortis at, magna enim commodo dictumst cursus malesuada.</p>
     <p>Taciti vulputate augue turpis vivamus leo aptent netus potenti enim vestibulum vitae nisl, aliquam pulvinar orci curabitur platea ultricies gravida penatibus semper diam erat, nec felis ornare tellus risus laoreet euismod nulla in bibendum sed. Dictumst mauris ultrices posuere semper vivamus aptent turpis litora neque mollis, ante consequat tempus mus dui vehicula ornare class nisl, maecenas bibendum in varius potenti nulla sapien morbi faucibus. Nibh facilisis augue magna arcu consequat vestibulum convallis, eros felis velit vulputate nec phasellus ullamcorper, in senectus hac cras dictumst rutrum. Habitant pretium suspendisse aliquet fringilla auctor ultricies hac diam nec risus, sagittis accumsan eleifend velit gravida nisl tortor rhoncus nisi potenti metus, sed dis scelerisque ac ad inceptos fermentum duis placerat.</p>
+</div>
 
-<p>Pero ¿cuál es la realidad?</p>
+<div id="narrativa">
+    <p>Pero ¿cuál es la realidad?</p>
 </div>
 
 <div id="subtitulo">
@@ -127,19 +130,21 @@
 </div>
 
 <div id="categoria">
-    <p>Precio</p>
+        <p>Precio</p>
 </div>
 
 <div class="grafico-con-texto">
-    <iframe src="visjl.html" width="560" height="400" style="border:none;"></iframe>
+        <div id="vis-jl" style="width: 555px; height: 700px;"></div>
+    
     <div class="texto-grafico">
         <p><strong>Explicación Gráfico 2:</strong> Lorem ipsum dolor sit amet consectetur adipiscing elit, pellentesque suscipit molestie in leo senectus netus, tincidunt condimentum nisl felis ornare montes. Pretium morbi ut per cum praesent cras vel dictum sagittis facilisis, eleifend nullam nascetur pulvinar pellentesque libero venenatis ligula a. Condimentum pretium eros nec sociis netus himenaeos interdum vivamus, ultricies consequat conubia tempor molestie at suspendisse, gravida fringilla integer dis ad phasellus facilisi.</p>
     </div>
 </div>
 
-<div class="grafico-con-texto">
-    <iframe src="vislk.html" width="560" height="400" style="border:none;"></iframe>
-    <div class="texto-grafico">
+<div id="vis-lk-grafico">
+    <div id="vis-lk" style="width:100%;"></div>
+
+    <div id="vis-lk-texto">
         <p><strong>Explicación Gráfico 3:</strong> Lorem ipsum dolor sit amet consectetur adipiscing elit, pellentesque suscipit molestie in leo senectus netus, tincidunt condimentum nisl felis ornare montes. Pretium morbi ut per cum praesent cras vel dictum sagittis facilisis, eleifend nullam nascetur pulvinar pellentesque libero venenatis ligula a. Condimentum pretium eros nec sociis netus himenaeos interdum vivamus, ultricies consequat conubia tempor molestie at suspendisse, gravida fringilla integer dis ad phasellus facilisi.</p>
     </div>
 </div>
@@ -157,8 +162,9 @@
 
 <div id="subtitulo">
    <p>Mismos platos, distintas canastas</p></div>
-<div>
-    <p>En su camino entre los árboles, Caperucita y el Lobo abrieron sus canastas y se dieron cuenta de que llevaban prácticamente los mismos alimentos, solo que en versiones distintas: él con los productos tradicionales y ella con sus equivalentes de origen vegetal. Al mirarlas, entendieron que cada ingrediente podía tener una historia alternativa. Solo había que atreverse a abrir la tapa.</p></div>
+<div id="bajada">
+    <p>En su camino entre los árboles, Caperucita y el Lobo abrieron sus canastas y se dieron cuenta de que llevaban prácticamente los mismos alimentos, solo que en versiones distintas: él con los productos tradicionales y ella con sus equivalentes de origen vegetal. Al mirarlas, entendieron que cada ingrediente podía tener una historia alternativa. Solo había que atreverse a abrir la tapa.</p>
+</div>
 
 <div class="carruseles-container">
 
@@ -182,7 +188,7 @@
 
 </div>
 
-<div>
+<div class="fondo-verde">
     <p>Lorem ipsum dolor sit amet consectetur adipiscing elit, pellentesque suscipit molestie in leo senectus netus, tincidunt condimentum nisl felis ornare montes. Pretium morbi ut per cum praesent cras vel dictum sagittis facilisis, eleifend nullam nascetur pulvinar pellentesque libero venenatis ligula a. Condimentum pretium eros nec sociis netus himenaeos interdum vivamus, ultricies consequat conubia tempor molestie at suspendisse, gravida fringilla integer dis ad phasellus facilisi.</p>
     <p>Lorem ipsum dolor sit amet consectetur adipiscing elit, pellentesque suscipit molestie in leo senectus netus, tincidunt condimentum nisl felis ornare montes. Pretium morbi ut per cum praesent cras vel dictum sagittis facilisis, eleifend nullam nascetur pulvinar pellentesque libero venenatis ligula a. Condimentum pretium eros nec sociis netus himenaeos interdum vivamus, ultricies consequat conubia tempor molestie at suspendisse, gravida fringilla integer dis ad phasellus facilisi.</p>
     <p>Lorem ipsum dolor sit amet consectetur adipiscing elit, pellentesque suscipit molestie in leo senectus netus, tincidunt condimentum nisl felis ornare montes. Pretium morbi ut per cum praesent cras vel dictum sagittis facilisis, eleifend nullam nascetur pulvinar pellentesque libero venenatis ligula a. Condimentum pretium eros nec sociis netus himenaeos interdum vivamus, ultricies consequat conubia tempor molestie at suspendisse, gravida fringilla integer dis ad phasellus facilisi.</p>
@@ -194,9 +200,8 @@
 
 <div id="encabezado">
     <h1>FIN</h1></div>
-    
-    <script src="script.js"></script>
-    
-</body>
 
+<script src="script.js"></script>  
+
+</body>
 </html>
