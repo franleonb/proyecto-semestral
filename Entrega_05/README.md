@@ -12,4 +12,13 @@ La canasta básica es uno de los indicadores más importantes para entender el c
 Cuando comenzamos el reportaje partimos de una hipótesis sencilla: la canasta básica de alimentos de una persona vegana sería más costosa que la canasta tradicional carnívora. Sin embargo, a medida que avanzamos en la investigación y recopilamos datos, descubrimos que esta hipótesis no se cumplía. Contrario a la creencia popular, la dieta vegana no resulta más cara que una dieta carnívora.
 Por ello, decidimos reformular nuestra hipótesis, comprendiendo que el problema en la adopción de una dieta vegana no se relaciona con el costo, sino con otros factores. Las personas suelen frenarse de optar por este tipo de alimentación debido a la disponibilidad, accesibilidad y variedad de los productos veganos.
 
-- Tabla de autoría*.
+## Tabla de autoría
+|ELEMENTO|FRANCINE|JUDITH|LUKAS|
+| --- | --- | --- | --- |
+| HTML   |   si   |si    | no  |
+|Estructura|si    | si   | si  |
+| Crónica| no     | si   | si  |
+|Visualización| si| si   | si  |
+|CCS          | si| si   | no  |
+|Javascript   | si| no   | no  |
+
