@@ -1,5 +1,3 @@
-// script.js — pega esto entero, reemplaza el script.js viejo
-
 document.addEventListener("DOMContentLoaded", () => {
 
 const leafCount = 60;
@@ -18,32 +16,25 @@ const leafCount = 60;
         document.body.appendChild(leaf);
     }
 
-  /* ============ helpers ============ */
   function embedAndMove(selector, spec, embedOpt = { mode: "vega-lite" }) {
-    // vegaEmbed devuelve una promesa con result.view
     return vegaEmbed(selector, spec, embedOpt)
       .then(result => {
         try {
-          // result.view.container() es función en Vega View
           const host = result.view && typeof result.view.container === "function"
             ? result.view.container()
             : document.querySelector(selector);
 
-          // Busca tooltip generado por vega dentro del host
           const tooltip = host && host.querySelector ? host.querySelector('.vega-tooltip') : null;
 
           if (tooltip && tooltip.parentNode !== document.body) {
             document.body.appendChild(tooltip);
-            // Forzamos estilo que evite offsets por contenedores/transform
             tooltip.style.position = 'fixed';
             tooltip.style.transform = 'none';
             tooltip.style.zIndex = '99999';
             tooltip.style.pointerEvents = 'auto';
-            // No tocamos left/top — Vega los escribe inline según el mouse/evento
           }
 
         } catch (e) {
-          // No fatal, sólo log
           console.warn("No se pudo mover tooltip para", selector, e);
         }
 
@@ -51,7 +42,6 @@ const leafCount = 60;
       })
       .catch(error => {
         console.error("Error embeding", selector, error);
-        // Mostrar mensaje visible en el contenedor (útil durante dev)
         const el = document.querySelector(selector);
         if (el) {
           el.innerHTML = `<div style="color:red; padding:8px; background:#fff5f5; border-radius:6px;">
@@ -61,8 +51,6 @@ const leafCount = 60;
         throw error;
       });
   }
-
-  /* ============ Tus specs (renombradas para evitar colisiones) ============ */
 
   const specJL = {
     "config": {"view":{"continuousWidth":300,"continuousHeight":300}},
@@ -148,23 +136,16 @@ const leafCount = 60;
     }
   };
 
-  const embedOpt = { mode: "vega-lite", actions: false }; // actions false para simplificar, opcional
+  const embedOpt = { mode: "vega-lite", actions: false };
 
-  /* ============ Embebe los dos gráficos ============ */
-  // Asegúrate de que los IDs #vis-jl y #vis-lk existan en tu HTML (los tienes)
   embedAndMove("#vis-jl", specJL, embedOpt)
     .then(() => console.log("vis-jl embebido"))
-    .catch(() => { /* ya loguea dentro de embedAndMove */ });
+    .catch(() => { });
 
   embedAndMove("#vis-lk", specLK, embedOpt)
     .then(() => console.log("vis-lk embebido"))
-    .catch(() => { /* ya loguea dentro de embedAndMove */ });
+    .catch(() => { });
 
-  /* ============ Resto del script.js original (canastas, carruseles, hojas) ============ */
-  // Mantengo aquí tu code original para canastas, hojas, carruseles, etc.
-  // Si ya lo tienes en el archivo, conserva la lógica; si quieres, la pegas abajo.
-
-  // Example: canastas toggle (mantén tu version si difiere)
   document.querySelectorAll('.canasta').forEach(canasta => {
     canasta.addEventListener('click', () => {
       const info = canasta.querySelector('.info');
@@ -173,7 +154,6 @@ const leafCount = 60;
     });
   });
 
-  // Carruseles simples (si no los tienes ya)
   document.querySelectorAll('.carrusel').forEach(carrusel => {
     const slides = carrusel.querySelectorAll('.slide');
     const prev = carrusel.querySelector('.prev');
@@ -189,4 +169,4 @@ const leafCount = 60;
     if (next) next.addEventListener('click', () => { index = (index + 1) % slides.length; show(index); });
   });
 
-}); // DOMContentLoaded end
+});

@@ -11,7 +11,7 @@ body {
 }
 
 .fondo-verde {
-    background-color: #2e7d32; /* verde oscuro plano */
+    background-color: #2e7d32;
     padding: 20px;
     border-radius: 15px;
     margin: 30px auto;
@@ -20,11 +20,11 @@ body {
     padding-right: 40px;
     max-width: 1200px;
     position: relative;
-    z-index: 0; /* está sobre las hojas pero debajo de todo lo demás */
+    z-index: 0;
 }
 
 .fondo-verde p {
-    color: white; /* texto claro sobre verde */
+    color: white;
     font-size: 22px;
     line-height: 1.6;
     font-weight: bold;
@@ -206,10 +206,9 @@ body {
     line-height: 1.5;
 }
 
-/* === FIX ESPECÍFICO SOLO PARA EL GRÁFICO vis-lk === */
 #vis-lk-grafico {
     display: flex;
-    flex-direction: column;  /* gráfico arriba, texto abajo */
+    flex-direction: column;
     align-items: center;
     width: 100%;
     margin: 40px auto;
@@ -221,13 +220,11 @@ body {
     max-width: 1000px;    
     height: auto;
     margin-bottom: 20px;
-    position: relative;  /* necesario para que los tooltips se calculen bien */
-    z-index: 10;         /* evita que algo lo tape */
+    position: relative;
+    z-index: 10;
 }
 
-
-/* Mantiene tu estilo rojo original */
-#vis-lk-texto {
+#horizontal-texto {
     max-width: 900px;
     width: 90%;
     background-color: #c0392b;
@@ -242,7 +239,7 @@ body {
 .carruseles-container {
     display: flex;
     justify-content: center;
-    gap: 40px;
+    gap: 50px;
     margin-top: 30px;
 }
 
@@ -291,4 +288,10 @@ body {
 
 .carrusel button.next {
     right: 10px;
+}
+
+.carrusel-wrapper {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
