@@ -14,7 +14,14 @@ Con este aproximado, se observa que, durante toda la línea de tiempo analizada,
 
 # Ficha Técnica de Bases de Datos
 
-## FICHA TÉCNICA GRÁFICOS 2 Y 3 
+## Ficha Técnica Gráfico 1
+Para esta visualización, modificamos nuestra base de datos original para crear una nueva base de datos. Para esto, comparamos la canasta tradicional y vegana para identificar qué elementos se habían **mantenido, eliminado, reemplazado, agregado, disminuido y extendido.**
+
+Durante este proceso, tuvimos que crear seis categorías. Las categorías **"mantenidos"** y **"eliminados"** fueron las más sencillas de crear, ya que consisten de productos que se repetían en ambas canastas y de elementos que quedaban fuera de la canasta vegana, respectivamente. La categoría **"reemplazados"** fue creada para los productos que, **a diferencia de los elementos "eliminados"**, podían ser reemplazados por una versión vegana del mismo. Por otro lado, la categoría **"agregados"** corresponden a productos que se agregan en la canasta vegana para cumplir con las necesidades nutricionales de una dieta balanceada.
+
+Finalmente, las categorías **"disminuidos"** y **"extendidos"** están compuestas de productos que consideramos que, por sus características y cantidad, no era apropiado incluirlas en la categoría "reemplazados". Por ejemplo, la leche en polvo y leche líquida solo puede ser reemplazada por leche líquida vegana, por lo que estos dos productos fueron integrados en los **"disminuidos"**, ya que de dos productos, pasaron a uno. En cambio, las legumbres clasificaron a la categoría **"extendidos"** debido a que, para cumplir con los requerimientos nutricionales de una dieta balanceada, en la canasta vegana se consideraron varios tipos de legumbres (porotos, lentejas y garbanzos). De esta forma, un producto en la canasta tradicional se tradujo en tres en la vegana.
+
+## Ficha Técnica Gráfico 2 y 3
 Utilizamos los datos entregados por el INE de los precios de los alimentos de enero de 2024 hasta mayo de 2025. Complementamos con una canasta vegana creada por nosotros, y donde los productos que no existían en la base de datos, los buscamos en los supermercados Lider, Jumbo y Tottus.
 
 ### Ficha Técnica de la Base de Datos
