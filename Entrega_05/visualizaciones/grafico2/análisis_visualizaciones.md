@@ -1,0 +1,2 @@
+## Comparativa de precios de productos de la canasta tradicional con su símil en la canasta vegana.
+Escogimos 10 productos que tenían su símil en la canasta vegana y comparamos sus precios. Observamos que, en general, los productos de la canasta vegana eran ligeramente más caros que los de la tradicional, aunque la mayor diferencia se dio entre la carne y la carne de soya. Esto evidencia que la carne es uno de los productos que más incide en el encarecimiento de la canasta tradicional.
