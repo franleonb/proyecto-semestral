@@ -10,6 +10,20 @@ body {
     cursor: url("img/cursor-canasta.png"), auto;
 }
 
+#logo-container {
+    position: absolute;
+    top: 15px;
+    left: 15px;
+    z-index: 2000; /* más alto que todo */
+}
+
+#logo {
+    width: 120px;      /* ajusta el tamaño que quieras */
+    height: auto;
+    cursor: pointer;
+}
+
+
 .fondo-verde {
     background-color: #2e7d32;
     padding: 20px;
