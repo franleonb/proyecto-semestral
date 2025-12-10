@@ -1,6 +1,6 @@
 document.addEventListener("DOMContentLoaded", () => {
 
-const leafCount = 60;
+  const leafCount = 60;
     for (let i = 0; i < leafCount; i++) {
         const leaf = document.createElement("div");
         leaf.classList.add("leaf");

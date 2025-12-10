@@ -114,7 +114,7 @@ body {
     }
 }
 
-#personajes {
+#punteos {
     display: flex;
     justify-content: center;
     align-items: flex-start;
@@ -294,4 +294,13 @@ body {
     display: flex;
     flex-direction: column;
     align-items: center;
+}
+
+.dos-bloques {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 40px;
+    margin: 40px auto;
+    flex-wrap: wrap;
 }
